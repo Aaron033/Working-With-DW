@@ -33,6 +33,12 @@ background-size: cover;
     position: relative;
 }
 
+/*.aside container info   ********** */
+.aside-container{
+    width: 80%; 
+     margin: 10px auto; 
+}
+/*.aside container info   ********** */
 .nav-list-container{
     display: flex;
     flex-direction: row;
@@ -67,12 +73,12 @@ background-size: cover;
 margin:50px;
     display: grid; 
 
-     grid-template-columns: auto; 
+     grid-template-columns: repeat(3, 1fr);  
      grid-template-areas: "p1 p3  info"
                          "p2 p3 info"; 
-       grid-template-rows: auto auto;
-    justify-content: center;
-    grid-gap: 60px;
+   
+   grid-template-rows: auto auto;
+    grid-gap: 10px;
 /*
 align-content: center;
     justify-items: center;
@@ -84,36 +90,58 @@ align-content: center;
 
 .about-image1-container{
    grid-area: p1; 
+    background-image: url(../img/cup-coffe.jpg); 
+    background-position: center center; 
+    background-size: cover;
+    min-height: 250px;
+/*
     width: 250px; 
     height: 100px;
+*/
     margin-bottom: 10px;
-         justify-content: center;
+        
 }
+
+
+
+/*
 .about-image1-container img{
-    width: 250px; 
+    max-width: 250px; 
     height: auto;
  
 }
+*/
 .about-image2-container{
     grid-area: p2; 
-      width: 250px; 
-    height: auto;
-       margin-top: 10px;
+/*      width: 250px; */
+/*    height: auto;*/
+       
+     background-image: url(../img/pour-coffe.jpg); 
+    background-position: center center; 
+    background-size: cover;
+  min-height: 250px;
 }
+/*
 .about-image2-container img{
       width: 250px; 
     height: auto;
 }
+*/
 .about-image3-container{
    grid-area:  p3;
-         width: 200px; 
-    height: auto;
-    justify-items: left;
+/*         width: 200px; */
+/*    height: auto;*/
+
+     background-image: url(../img/drinking-coffee.jpg); 
+    background-position: center center; 
+    background-size: cover;
 }
+/*
 .about-image3-container img{
       width: 200px; 
     height: auto;
 }
+*/
 .about-info{
     grid-area: info;
     padding: 10px;
@@ -121,7 +149,7 @@ align-content: center;
 }
 .about-button1{
     margin-top: 20px;
-    width:100px;
+/*    width:100px;*/
     height: 40px; 
     font-size: 1rem;
     background-color: palegoldenrod;
