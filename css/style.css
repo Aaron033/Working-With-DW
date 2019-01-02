@@ -16,4 +16,29 @@ background-size: cover;
     height: 100vh; 
     width: 100vw; 
     z-index: -100; 
+    position: relative;
 }
+
+
+.nav-list-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute; 
+    bottom: 0;
+    background-color: #000; 
+    height: 70px;
+    width: 100%;
+    a;align-items: center;
+}
+
+.nav-list-container{
+    padding: 10px;
+    list-style: none;
+}
+
+.list-item{
+    color:#fff;
+    text-decoration: none;
+    
+}
+
