@@ -67,10 +67,16 @@ background-size: cover;
 margin:50px;
     display: grid; 
 
-     grid-template-columns: 1fr  1fr 1fr ; 
+     grid-template-columns: auto; 
      grid-template-areas: "p1 p3  info"
                          "p2 p3 info"; 
        grid-template-rows: auto auto;
+    justify-content: center;
+    grid-gap: 60px;
+/*
+align-content: center;
+    justify-items: center;
+*/
 
   
     
@@ -78,29 +84,31 @@ margin:50px;
 
 .about-image1-container{
    grid-area: p1; 
-    width: 200px; 
+    width: 250px; 
     height: 100px;
     margin-bottom: 10px;
+         justify-content: center;
 }
 .about-image1-container img{
-    width: 200px; 
+    width: 250px; 
     height: auto;
  
 }
 .about-image2-container{
     grid-area: p2; 
-      width: 200px; 
+      width: 250px; 
     height: auto;
        margin-top: 10px;
 }
 .about-image2-container img{
-      width: 200px; 
+      width: 250px; 
     height: auto;
 }
 .about-image3-container{
    grid-area:  p3;
          width: 200px; 
     height: auto;
+    justify-items: left;
 }
 .about-image3-container img{
       width: 200px; 
