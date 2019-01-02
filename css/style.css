@@ -146,13 +146,27 @@ align-content: center;
     grid-area: info;
     padding: 10px;
     text-align: center;
+   justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center; 
 }
 .about-button1{
     margin-top: 20px;
-/*    width:100px;*/
+padding-left: 10px;
+    padding-right: 10px;
     height: 40px; 
     font-size: 1rem;
     background-color: palegoldenrod;
     color: #fff;
+    
+}
+
+.location-container{
+    background-image: url(../img/location-coffee.jpg); 
+        background-position: center center; 
+    background-size: cover;
+    height: 100Vh; 
+    width:100Vw;
     
 }
