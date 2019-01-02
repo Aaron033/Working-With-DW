@@ -5,7 +5,7 @@
     font-family: 'Oswald', sans-serif;
 }
 .main-info h1{
-	color:bisque; 
+	color: #fff; 
 	font-size: 1.6rem; 
     font-weight: 700;
 }
@@ -63,21 +63,60 @@ background-size: cover;
 /*about-section **********************/
 
 .about-section{
+  
+margin:50px;
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-areas: "picr1c1" "pic3rc2"  "info"
-                         "pic2r2c1" "pic3rc2" "info"; 
-    
+
+     grid-template-columns: 1fr  1fr 1fr ; 
+     grid-template-areas: "p1 p3  info"
+                         "p2 p3 info"; 
+       grid-template-rows: auto auto;
+
+  
     
 }
 
-.about-image1{
-    background-image: url(../img/cup-coffe.jpg); 
+.about-image1-container{
+   grid-area: p1; 
+    width: 200px; 
+    height: 100px;
+    margin-bottom: 10px;
+}
+.about-image1-container img{
+    width: 200px; 
+    height: auto;
+ 
+}
+.about-image2-container{
+    grid-area: p2; 
+      width: 200px; 
+    height: auto;
+       margin-top: 10px;
+}
+.about-image2-container img{
+      width: 200px; 
+    height: auto;
+}
+.about-image3-container{
+   grid-area:  p3;
+         width: 200px; 
+    height: auto;
+}
+.about-image3-container img{
+      width: 200px; 
+    height: auto;
+}
+.about-info{
+    grid-area: info;
+    padding: 10px;
+    text-align: center;
+}
+.about-button1{
+    margin-top: 20px;
+    width:100px;
+    height: 40px; 
+    font-size: 1rem;
+    background-color: palegoldenrod;
+    color: #fff;
     
-}
-.about-image2{
-    background-image: url(../img/pour-coffe.jpg); 
-}
-.about-image3{
-    background-image: url(../img/drinking-coffee.jpg);
 }
