@@ -3,15 +3,16 @@
     padding: 0; 
     box-sizing: border-box;
 }
-h1{
+.main-info h1{
 	color:bisque; 
-	font-size: 1rem; 
+	font-size: 1.6rem; 
+    font-weight: 700;
 }
 
 
 /*main info **********************/
 .main-info{
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -39,17 +40,19 @@ background-size: cover;
     background-color: #000; 
     height: 70px;
     width: 100%;
-    a;align-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav-list-container{
-    padding: 10px;
+.nav-list-container li{
+    padding-left: 20px;
     list-style: none;
 }
 
 .list-item{
     color:#fff;
     text-decoration: none;
+    
     
 }
 
