@@ -211,18 +211,58 @@ padding-left: 10px;
     width: 80%;
     margin: auto auto;
     display: flex;
+    position: relative;
     
 }
+/*
+.locations-divs p{
+    text-align: left
+}
+*/
 
 .location-container h2{
+    padding-top:50px;
     text-align: center;
     font-weight: 700;
     font-size: 3rem;
-    height:200px;
+    height:150px;
     color:aliceblue;
 }
 
 .location1,.location2,.location3{
     background-color: aliceblue;
     color:black;
+}
+
+
+.location1-img{
+    background-image: url(../img/location1.jpg);
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    width: 305px; 
+    height: 195px; 
+    margin: 20px auto;
+ 
+    text-align: center;
+}
+.location2-img{
+    background-image: url(../img/location2.jpg);
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    width: 305px; 
+    height: 195px; 
+
+    margin: 20px auto;
+}
+.location3-img{
+    background-image: url(../img/location3.jpg);
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    width: 305px; 
+    height: 195px; 
+  
+    margin: 20px auto;
 }
