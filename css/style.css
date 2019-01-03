@@ -293,7 +293,14 @@ padding-left: 10px;
    
 }
 
-
+.location-info{
+    display: grid;
+    grid-template-columns: 50px 1fr; 
+    grid-template-areas: "l1 ad1"
+                          "l2 ad2"
+                           "l3 ad3"
+                            "bt bt"; 
+}
 .location-p {
   margin-left:24px;
     margin-right:24px;
@@ -301,10 +308,14 @@ padding-left: 10px;
    
 }
 .location-map{
+/*
     padding-left: 10px;
     padding-right: 10px;
+*/
     height: 40px; 
     font-size: 1rem;
     background-color: rgb(255, 164, 76); ;
     color: #fff;
+    margin:20px;
+    grid-area: bt;
 }
