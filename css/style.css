@@ -35,6 +35,22 @@ background-size: cover;
     z-index: -100; 
     position: relative;
 }
+.main-cover-cover > * {
+    z-index: 2;
+}
+
+.main-nav > * {
+        z-index: 2;
+}
+.main-cover:after{
+     content: ''; 
+    position: absolute; 
+    left: 0; 
+    top:0; 
+    width: 100vw; 
+    height: 100vh; 
+    background: rgba(0,0,0,0.4); 
+}
 
 /*.aside container info   ********** */
 .aside-container{
@@ -146,6 +162,10 @@ align-content: center;
     height: auto;
 }
 */
+.coffee-icon{
+    width:40px; 
+    heigh:40px;
+}
 .about-info{
     grid-area: info;
     padding: 10px;
