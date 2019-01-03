@@ -120,55 +120,26 @@ align-content: center;
     background-position: center center; 
     background-size: cover;
     min-height: 250px;
-/*
-    width: 250px; 
-    height: 100px;
-*/
     margin-bottom: 10px;
         
 }
 
-
-
-/*
-.about-image1-container img{
-    max-width: 250px; 
-    height: auto;
- 
-}
-*/
 .about-image2-container{
     grid-area: p2; 
-/*      width: 250px; */
-/*    height: auto;*/
+
        
      background-image: url(../img/pour-coffe.jpg); 
     background-position: center center; 
     background-size: cover;
   min-height: 250px;
 }
-/*
-.about-image2-container img{
-      width: 250px; 
-    height: auto;
-}
-*/
+
 .about-image3-container{
    grid-area:  p3;
-/*         width: 200px; */
-/*    height: auto;*/
-
      background-image: url(../img/drinking-coffee.jpg); 
     background-position: center center; 
     background-size: cover;
 }
-/*
-.about-image3-container img{
-      width: 200px; 
-    height: auto;
-}
-*/
-
 /*coffee icons   ***********************/
 .coffee-icon{
     width:80px; 
@@ -184,7 +155,15 @@ align-content: center;
     grid-area: info;
     padding: 10px;
     text-align: center;
-   
+    position: relative; 
+  
+}
+.about-info-container{
+    position: absolute; 
+     top: 50%;
+  left: 20%;
+    transform: translate(-10%, -50%);
+ 
 }
 .about-button1{
     margin-top: 20px;
@@ -192,7 +171,7 @@ padding-left: 10px;
     padding-right: 10px;
     height: 40px; 
     font-size: 1rem;
-    background-color: palegoldenrod;
+    background-color: rgb(255, 164, 76); ;
     color: #fff;
     
 }
