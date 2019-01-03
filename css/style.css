@@ -286,13 +286,25 @@ padding-left: 10px;
 }
 
 .locations-divs img{
+
     width:20px;
     height: 20px; 
+     margin-left:24px;
+   
 }
 
-/*
+
 .location-p {
-  margin-left:55px;
-    margin-right:50px;
+  margin-left:24px;
+    margin-right:24px;
+    padding-bottom: 20px; 
    
-}*/
+}
+.location-map{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px; 
+    font-size: 1rem;
+    background-color: rgb(255, 164, 76); ;
+    color: #fff;
+}
