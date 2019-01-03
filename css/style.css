@@ -162,10 +162,18 @@ align-content: center;
     height: auto;
 }
 */
+
+/*coffee icons   ***********************/
 .coffee-icon{
-    width:40px; 
-    heigh:40px;
+    width:80px; 
+    heigh:80px;
 }
+.coffee-icon-nav{
+    width:60px; 
+    heigh:60px;
+}
+
+/*coffee icons   ***********************/
 .about-info{
     grid-area: info;
     padding: 10px;
