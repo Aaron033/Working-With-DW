@@ -211,7 +211,9 @@ padding-left: 10px;
     width: 80%;
     margin: auto auto;
     display: flex;
+    flex-direction: row;
     position: relative;
+
     
 }
 /*
@@ -232,8 +234,24 @@ padding-left: 10px;
 .location1,.location2,.location3{
     background-color: aliceblue;
     color:black;
+    margin: 10px;
+    width: 350px;
+    margin: 0 auto; 
+    
 }
 
+.location1{
+    margin-right: 20px; 
+}
+.location2 {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.location3 {
+    margin-left: 0px;
+       
+}
 
 .location1-img{
     background-image: url(../img/location1.jpg);
@@ -266,3 +284,15 @@ padding-left: 10px;
   
     margin: 20px auto;
 }
+
+.locations-divs img{
+    width:20px;
+    height: 20px; 
+}
+
+/*
+.location-p {
+  margin-left:55px;
+    margin-right:50px;
+   
+}*/
