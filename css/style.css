@@ -1,4 +1,4 @@
-*{
+html,body,*{
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
@@ -40,6 +40,7 @@ background-size: cover;
     z-index: -100; 
     position: relative;
 }
+
 
 /*
 .sticky {
@@ -126,6 +127,7 @@ align-content: center;
     background-image: url(../img/cup-coffe.jpg); 
     background-position: center center; 
     background-size: cover;
+    
     min-height: 250px;
     margin-bottom: 10px;
         
@@ -242,7 +244,8 @@ padding-left: 10px;
     background-color: aliceblue;
     color:black;
     margin: 10px;
-    width: 350px;
+
+    max-width: 350px;
     margin: 0 auto; 
     
 }
@@ -267,8 +270,17 @@ padding-left: 10px;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-    width: 305px; 
-    height: 195px; 
+/*
+    min-width: 100px;
+    min-height: auto; 
+*/
+      width: 90%; 
+/*
+    max-width: 305px; 
+   height:90%;
+*/
+   height: 195px; 
+    
     margin: 20px auto;
  
     text-align: center;
@@ -278,7 +290,7 @@ padding-left: 10px;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
-    width: 305px; 
+   width: 90%; 
     height: 195px; 
 
     margin: 20px auto;
@@ -288,7 +300,7 @@ padding-left: 10px;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-    width: 305px; 
+    width: 90%; 
     height: 195px; 
   
     margin: 20px auto;
@@ -340,17 +352,21 @@ padding-left: 10px;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-    width: 344px; 
-    height: 344px;
+   width: 90%; 
+    max-width: 344px;
+    height:90%; 
+    max-height: 344px;
     border-radius: 50%;
 }
-.s-img2 {
+.s-img2,.s-img3{
     background-image: url(../img/vanilla%20cake.jpg); 
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-    width: 344px; 
-    height: 344px;
+    width: 90%; 
+    max-width: 344px; 
+    height:90%; 
+    max-height: 344px;
      border-radius: 50%;
     
 }
@@ -359,8 +375,11 @@ padding-left: 10px;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-    width: 344px; 
-    height: 344px;
+    width: 90%; 
+    max-width: 344px;
+    
+    max-height: 344px;
+    height:90%;
      border-radius: 50%;
 }
 
@@ -371,4 +390,46 @@ padding-left: 10px;
     font-size: 3rem;
     height:150px;
     color: #000;
+}
+
+@media (max-width: 29rem){
+    .main-cover{
+        width:100vw;
+        height: 100vh;
+        position: relative;
+    }
+    
+    .main-info h1{
+        font-size: 2rem;
+    }
+    
+    .main-info h4{
+        font-size: 1rem;
+    }
+    
+    .nav-list-container a{
+        font-size: .8rem;
+    }
+    
+    .about-image1-container, .about-image2-container,.about-image3-container{
+        display: none;
+    }
+    .about-info{
+      display: block;
+    }
+  
+    .locations-divs{
+
+        display: flex; 
+        flex-direction: column!important;
+    }
+    .locations-divs p{
+        font-size: 0.8rem;
+    }
+    .location-info p{
+        font-size: 0.8rem !important;
+    }
+    .nav-list-container li{
+        padding-left: 5px;
+    }
 }
