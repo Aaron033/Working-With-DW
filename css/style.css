@@ -319,3 +319,47 @@ padding-left: 10px;
     margin:20px;
     grid-area: bt;
 }
+
+/*section *********************************  */
+.special-main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.s-img1 {
+    background-image: url(../img/straberry-drink.jpg); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    width: 344px; 
+    height: 344px;
+    border-radius: 50%;
+}
+.s-img2 {
+    background-image: url(../img/vanilla%20cake.jpg); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    width: 344px; 
+    height: 344px;
+     border-radius: 50%;
+    
+}
+.s-img3 {
+    background-image: url(../img/cappuchino.jpg); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    width: 344px; 
+    height: 344px;
+     border-radius: 50%;
+}
+
+.specialities-container h2{
+      padding-top:50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    height:150px;
+    color: #000;
+}
