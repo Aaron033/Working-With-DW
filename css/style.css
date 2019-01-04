@@ -208,7 +208,7 @@ padding-left: 10px;
 
 
 .locations-divs {
-    width: 80%;
+    width: 90%;
     margin: auto auto;
     display: flex;
     flex-direction: row;
@@ -241,6 +241,7 @@ padding-left: 10px;
 }
 
 .location1{
+   
     margin-right: 20px; 
 }
 .location2 {
@@ -250,6 +251,7 @@ padding-left: 10px;
 
 .location3 {
     margin-left: 0px;
+ 
        
 }
 
@@ -322,8 +324,8 @@ padding-left: 10px;
 
 /*section *********************************  */
 .special-main-container {
-    display: flex;
-    flex-direction: row;
+  display: grid;
+    
 }
 
 .s-img1 {
