@@ -40,6 +40,13 @@ background-size: cover;
     z-index: -100; 
     position: relative;
 }
+
+/*
+.sticky {
+    position: fixed;
+}
+*/
+
 .main-cover-cover > * {
     z-index: 2;
 }
