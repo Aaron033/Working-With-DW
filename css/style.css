@@ -467,6 +467,11 @@ padding-left: 10px;
 
 
 @media only screen and (max-width: 51rem) and (orientation: landscape){
+    .nav-list-container a {
+        font-size: 1.1rem;
+    }
+    
+   
     .location-container{
         overflow: hidden;
         height: 100%;
