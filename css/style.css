@@ -344,6 +344,8 @@ padding-left: 10px;
 /*section *********************************  */
 .special-main-container {
   display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-areas: "s1 s2 s3"; 
     
 }
 
@@ -376,10 +378,11 @@ padding-left: 10px;
     background-position: center center; 
     background-repeat: no-repeat; 
     width: 90%; 
+    height:90%;
     max-width: 344px;
     
-    max-height: 344px;
-    height:90%;
+
+
      border-radius: 50%;
 }
 
@@ -391,6 +394,21 @@ padding-left: 10px;
     height:150px;
     color: #000;
 }
+
+.s-containr1{
+    grid-area: s1; 
+    
+}
+
+.s-containr2{
+    grid-area: s2; 
+    
+}
+.s-containr3{
+    grid-area: s3; 
+    
+}
+
 
 @media (max-width: 29rem){
     .main-cover{
