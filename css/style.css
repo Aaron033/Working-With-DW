@@ -412,11 +412,26 @@ padding-left: 10px;
     }
     
     .about-image1-container, .about-image2-container,.about-image3-container{
-        display: none;
+/*        display: none;*/
+        visibility: hidden;
+    }
+/*
+    .aside-container{
+        position: relative; 
+    
+    }
+    */.about-section{
+        margin: 0;
+    }
+    .about-info{
+        margin-top: 179px; 
+        grid-area: info;
+  
     }
     .about-section{
-      display: block;
-        position: relative;
+      display: grid;
+      grid-template-columns: 1fr; 
+        grid-template-areas: "info"; 
     }
   
     .locations-divs{
