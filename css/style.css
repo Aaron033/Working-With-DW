@@ -460,7 +460,8 @@ padding-left: 10px;
         height: 55px;
     }
     .location1,.location2,.location3{
-        margin: 0;
+        margin: 10px;  0;
     }
 
 }
+
