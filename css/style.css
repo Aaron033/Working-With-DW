@@ -465,3 +465,34 @@ padding-left: 10px;
 
 }
 
+
+@media only screen and (max-width: 51rem) and (orientation: landscape){
+    .location-container{
+        overflow: hidden;
+        height: 100%;
+    }
+    .location1-img,.location2-img,.location3-img{
+        width: 200px;
+    }
+    .location1, .location2, .location3{
+        width: 240px; 
+        margin-right:5px;
+    }
+    .locations-divs{
+        width: 97%;
+        margin-bottom:10px; 
+    }
+    
+
+    .main-cover-cover h1{
+        font-size: 2rem;
+    }
+    .coffe-icon{
+         width:70px; 
+    heigh:70px;
+    }
+    
+    .aside-container{
+       width: 100%;
+    }
+}
