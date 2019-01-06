@@ -34,14 +34,8 @@ html,body,*{
 /*main cover **********************/
 .main-cover { 
 background-image: url(../img/hand-coffee.jpg);
-background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh; 
-    width: 100vw; 
+@include background-fixed();
     z-index: -100; 
-    position: relative;
 }
 
 
@@ -128,8 +122,7 @@ align-content: center;
 .about-image1-container{
    grid-area: p1; 
     background-image: url(../img/cup-coffe.jpg); 
-    background-position: center center; 
-    background-size: cover;
+   @include background-style(); 
     
     min-height: 250px;
     margin-bottom: 10px;
@@ -141,16 +134,14 @@ align-content: center;
 
        
      background-image: url(../img/pour-coffe.jpg); 
-    background-position: center center; 
-    background-size: cover;
+    @include background-style(); 
   min-height: 250px;
 }
 
 .about-image3-container{
    grid-area:  p3;
      background-image: url(../img/drinking-coffee.jpg); 
-    background-position: center center; 
-    background-size: cover;
+    @include background-style(); 
 }
 /*coffee icons   ***********************/
 .coffee-icon{
@@ -190,13 +181,7 @@ padding-left: 10px;
 /*location containers ********** */
 .location-container{
     background-image: url(../img/location-coffee.jpg); 
-        background-position: center center; 
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100Vh; 
-    width:100Vw;
-    position: relative;
-    
+@include background-fixed();
 }
 
 .location-container > * {
@@ -271,18 +256,10 @@ padding-left: 10px;
 
 .location1-img{
     background-image: url(../img/location1.jpg);
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
-/*
-    min-width: 100px;
-    min-height: auto; 
-*/
+   @include background-style();
+
       width: 90%; 
-/*
-    max-width: 305px; 
-   height:90%;
-*/
+
    height: 195px; 
     
     margin: 20px auto;
@@ -291,9 +268,7 @@ padding-left: 10px;
 }
 .location2-img{
     background-image: url(../img/location2.jpg);
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat;
+    @include background-style();
    width: 90%; 
     height: 195px; 
 
@@ -301,9 +276,7 @@ padding-left: 10px;
 }
 .location3-img{
     background-image: url(../img/location3.jpg);
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
+  @include background-style();
     width: 90%; 
     height: 195px; 
   
@@ -360,9 +333,7 @@ justify-items: center;
 
 .s-img1 {
     background-image: url(../img/straberry-drink.jpg); 
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
+  @include background-style();
  width:344px; 
     max-width:90%;
     height: 344px; 
@@ -371,9 +342,7 @@ max-height: 90%;
 }
 .s-img2{
     background-image: url(../img/vanilla%20cake.jpg); 
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
+    @include background-style();
   width:344px; 
     max-width:90%;
 height: 344px; 
@@ -383,9 +352,7 @@ max-height: 90%;
 }
 .s-img3{
     background-image: url(../img/cappuchino.jpg); 
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
+   @include background-style();
    width:344px; 
     max-width:90%;
     height: 344px; 
