@@ -434,6 +434,7 @@ max-height: 90%;
     display: grid; 
     grid-template-columns: repeat(3,1fr); 
     grid-template-areas: "img1 img2 img3";
+    justify-items: center;
 
 }
 
@@ -441,7 +442,26 @@ max-height: 90%;
     grid-area: img1;
 }
 
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+    width: 83.77px; 
+    height: 83.77px; 
+    border-radius: 50%;
+    background-color:palevioletred; 
+}
 
+.img1{
+    background-image: url(../img/ice-coffee.jpg); 
+       background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+.img2{
+    background-image: url(../img/yougurt-menu.jpg);
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
 @media (max-width: 29rem){
     .main-cover{
         width:100vw;
