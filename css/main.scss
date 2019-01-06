@@ -258,29 +258,19 @@ padding-left: 10px;
     background-image: url(../img/location1.jpg);
    @include background-style();
 
-      width: 90%; 
-
-   height: 195px; 
-    
-    margin: 20px auto;
+ @include location-img-mea();
  
     text-align: center;
 }
 .location2-img{
     background-image: url(../img/location2.jpg);
     @include background-style();
-   width: 90%; 
-    height: 195px; 
-
-    margin: 20px auto;
+   @include location-img-mea();
 }
 .location3-img{
     background-image: url(../img/location3.jpg);
   @include background-style();
-    width: 90%; 
-    height: 195px; 
-  
-    margin: 20px auto;
+    @include location-img-mea();
 }
 
 .locations-divs img{
@@ -334,31 +324,19 @@ justify-items: center;
 .s-img1 {
     background-image: url(../img/straberry-drink.jpg); 
   @include background-style();
- width:344px; 
-    max-width:90%;
-    height: 344px; 
-max-height: 90%;
-    border-radius: 50%;
+ @include s-width-height();
 }
 .s-img2{
     background-image: url(../img/vanilla%20cake.jpg); 
     @include background-style();
-  width:344px; 
-    max-width:90%;
-height: 344px; 
-max-height: 90%;
-     border-radius: 50%;
+ @include s-width-height();
     
 }
 .s-img3{
     background-image: url(../img/cappuchino.jpg); 
    @include background-style();
-   width:344px; 
-    max-width:90%;
-    height: 344px; 
-max-height: 90%;
-
-     border-radius: 50%;
+    
+ @include s-width-height();
 }
 
 .specialities-container h2{
@@ -420,16 +398,12 @@ max-height: 90%;
 
 .img1{
     background-image: url(../img/ice-coffee.jpg); 
-       background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
+   @include background-style();
 }
 
 .img2{
     background-image: url(../img/yougurt-menu.jpg);
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
+  @include background-style();
 }
 @media (max-width: 29rem){
     .main-cover{

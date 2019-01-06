@@ -367,14 +367,14 @@ html, body, * {
 
 .img1 {
   background-image: url(../img/ice-coffee.jpg);
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat; }
 
 .img2 {
   background-image: url(../img/yougurt-menu.jpg);
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat; }
 
 @media (max-width: 29rem) {
