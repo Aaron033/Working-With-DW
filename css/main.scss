@@ -102,20 +102,14 @@ background-image: url(../img/hand-coffee.jpg);
   
 margin:50px;
     display: grid; 
-
-     grid-template-columns: repeat(3, 1fr);  
-     grid-template-areas: "p1 p3  info"
+    grid:{
+        template-columns: repeat(3, 1fr); 
+        template-areas: "p1 p3  info"
                          "p2 p3 info"; 
-   
-   grid-template-rows: auto auto;
-    grid-gap: 10px;
+        template-rows: auto auto;
+        gap: 10px;
+    }
     position: relative;
-/*
-align-content: center;
-    justify-items: center;
-*/
-
-  
     
 }
 
@@ -214,11 +208,6 @@ padding-left: 10px;
 
     
 }
-/*
-.locations-divs p{
-    text-align: left
-}
-*/
 
 .location-container h2{
     padding-top:50px;
@@ -315,8 +304,11 @@ padding-left: 10px;
 }
 .special-main-container {
   display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-areas: "s1 s2 s3"; 
+    grid:{
+        template-columns: repeat(3, 1fr);
+        template-areas: "s1 s2 s3"; 
+    }
+     
 justify-items: center; 
     
 }
@@ -335,7 +327,6 @@ justify-items: center;
 .s-img3{
     background-image: url(../img/cappuchino.jpg); 
    @include background-style();
-    
  @include s-width-height();
 }
 
@@ -405,6 +396,48 @@ justify-items: center;
     background-image: url(../img/yougurt-menu.jpg);
   @include background-style();
 }
+
+.img3{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}
+.img4{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}
+.img5{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}
+.img6{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}
+.img7{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}
+.img8{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}
+.img9{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}
+.img10{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}.img11{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}
+.img12{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}
+
+
 @media (max-width: 29rem){
     .main-cover{
         width:100vw;
@@ -425,15 +458,9 @@ justify-items: center;
     }
     
     .about-image1-container, .about-image2-container,.about-image3-container{
-/*        display: none;*/
         visibility: hidden;
     }
-/*
-    .aside-container{
-        position: relative; 
-    
-    }
-    */.about-section{
+.about-section{
         margin: 0;
     }
     .about-info{

@@ -96,11 +96,7 @@ html, body, * {
   grid-template-areas: "p1 p3  info" "p2 p3 info";
   grid-template-rows: auto auto;
   grid-gap: 10px;
-  position: relative;
-  /*
-  align-content: center;
-      justify-items: center;
-  */ }
+  position: relative; }
 
 .about-image1-container {
   grid-area: p1;
@@ -191,11 +187,6 @@ html, body, * {
   flex-direction: row;
   position: relative; }
 
-/*
-.locations-divs p{
-    text-align: left
-}
-*/
 .location-container h2 {
   padding-top: 50px;
   text-align: center;
@@ -377,6 +368,66 @@ html, body, * {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.img3 {
+  background-image: url(../img/icecream-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img4 {
+  background-image: url(../img/icecream-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img5 {
+  background-image: url(../img/icecream-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img6 {
+  background-image: url(../img/icecream-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img7 {
+  background-image: url(../img/icecream-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img8 {
+  background-image: url(../img/icecream-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img9 {
+  background-image: url(../img/icecream-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img10 {
+  background-image: url(../img/icecream-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img11 {
+  background-image: url(../img/icecream-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img12 {
+  background-image: url(../img/icecream-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 @media (max-width: 29rem) {
   .main-cover {
     width: 100vw;
@@ -393,15 +444,8 @@ html, body, * {
     font-size: .8rem; }
 
   .about-image1-container, .about-image2-container, .about-image3-container {
-    /*        display: none;*/
     visibility: hidden; }
 
-  /*
-      .aside-container{
-          position: relative; 
-      
-      }
-      */
   .about-section {
     margin: 0; }
 
