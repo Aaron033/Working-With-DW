@@ -370,7 +370,7 @@ justify-items: center;
 }
 .menu-container-list{
     display: grid; 
-    grid-template-columns: repeat(3,1fr); 
+    grid-template-columns: repeat(3, 1fr); 
     grid-template-areas: "img1 img2 img3";
     justify-items: center;
 
@@ -378,14 +378,36 @@ justify-items: center;
 
 .img-menu-1 {
     grid-area: img1;
+    position: relative;
+  
 }
 
+  .menu-info{
+        width: 170px;
+        position: absolute;
+        top:15%;
+      transform: translateX(120px); 
+       
+    }
+
+
+.img-menu-2 {
+    grid-area: img2;
+}
+.img-menu-3 {
+    grid-area: img3;
+}
 .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
     width: 83.77px; 
     height: 83.77px; 
     border-radius: 50%;
     background-color:palevioletred; 
 }
+
+.menu-container-list div{
+    margin: 10px auto;
+}
+
 
 .img1{
     background-image: url(../img/ice-coffee.jpg); 
@@ -402,15 +424,15 @@ justify-items: center;
   @include background-style();
 }
 .img4{
-     background-image: url(../img/icecream-menu.jpg);
+     background-image: url(../img/oatmeal-menu.jpg);
   @include background-style();
 }
 .img5{
-     background-image: url(../img/icecream-menu.jpg);
+     background-image: url(../img/Rasperry-menu.jpg);
   @include background-style();
 }
 .img6{
-     background-image: url(../img/icecream-menu.jpg);
+     background-image: url(../img/chocolate-cake.jpg);
   @include background-style();
 }
 .img7{
@@ -437,12 +459,35 @@ justify-items: center;
   @include background-style();
 }
 
+.menu-container-list h3 {
+    display: inline-block; 
+    
+}
+.menu-container-list h4 {
+    display: inline-block; 
+    
+}
+.menu-container-list img1 {
+    display: inline-block; 
+    
+}
 .dash{
   border: 0 none;
   border-top: 2px dashed #322f32;
   background: none;
   height:0;
 } 
+
+//news-events 
+.news-events-container{
+    width: 100vw; 
+    height: 100vh; 
+    background-color: papayawhip;
+}
+.news-events-container h1{
+    text-align: center;
+    font-size: 3rem;
+}
 
 @media (max-width: 29rem){
     .main-cover{
