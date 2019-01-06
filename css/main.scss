@@ -437,6 +437,12 @@ justify-items: center;
   @include background-style();
 }
 
+.dash{
+  border: 0 none;
+  border-top: 2px dashed #322f32;
+  background: none;
+  height:0;
+} 
 
 @media (max-width: 29rem){
     .main-cover{
