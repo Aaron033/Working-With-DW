@@ -371,7 +371,11 @@ justify-items: center;
 .menu-container-list{
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
-    grid-template-areas: "img1 img2 img3";
+    grid-template-areas: "img1 img2 img3"
+    "img4 img5 img6"
+    "img7 img8 img9"
+    "img10 img11 img12"; 
+    
     justify-items: center;
 
 }
@@ -393,10 +397,55 @@ justify-items: center;
 
 .img-menu-2 {
     grid-area: img2;
+     position: relative;
 }
 .img-menu-3 {
     grid-area: img3;
+    position: relative;
 }
+
+.img-menu-4 {
+    grid-area: img4;
+     position: relative;
+}
+.img-menu-5 {
+    grid-area: img5;
+    position: relative;
+}
+.img-menu-6 {
+    grid-area: img6;
+     position: relative;
+}
+.img-menu-7 {
+    grid-area: img7;
+    position: relative;
+}
+.img-menu-8 {
+    grid-area: img8;
+     position: relative;
+}
+.img-menu-9 {
+    grid-area: img9;
+    position: relative;
+}
+.img-menu-10 {
+    grid-area: img10;
+     position: relative;
+}
+.img-menu-11 {
+    grid-area: img11;
+    position: relative;
+}
+
+
+.img-menu-12 {
+    grid-area: img12;
+    position: relative;
+}
+
+
+
+
 .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
     width: 83.77px; 
     height: 83.77px; 
