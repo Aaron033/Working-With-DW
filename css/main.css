@@ -444,15 +444,6 @@ html, body, * {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.menu-container-list h3 {
-  display: inline-block; }
-
-.menu-container-list h4 {
-  display: inline-block; }
-
-.menu-container-list img1 {
-  display: inline-block; }
-
 .dash {
   border: 0 none;
   border-top: 2px dashed #322f32;
