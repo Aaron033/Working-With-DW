@@ -190,6 +190,7 @@ padding-left: 10px;
     background-image: url(../img/location-coffee.jpg); 
         background-position: center center; 
     background-size: cover;
+    background-attachment: fixed;
     height: 100Vh; 
     width:100Vw;
     position: relative;
@@ -343,10 +344,15 @@ padding-left: 10px;
 }
 
 /*section *********************************  */
+.specialities-container{
+    width: 100vw; 
+    height: 80vh; 
+}
 .special-main-container {
   display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-areas: "s1 s2 s3"; 
+justify-items: center; 
     
 }
 
@@ -355,12 +361,10 @@ padding-left: 10px;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-width:100%;
-    height: auto; 
-/*
-    
-height:auto;
-*/
+ width:344px; 
+    max-width:90%;
+    height: 344px; 
+max-height: 90%;
     border-radius: 50%;
 }
 .s-img2{
@@ -368,12 +372,10 @@ height:auto;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
- 
-/*
-max-width:344px; 
-
-height:auto;
-*/
+  width:344px; 
+    max-width:90%;
+height: 344px; 
+max-height: 90%;
      border-radius: 50%;
     
 }
@@ -382,12 +384,10 @@ height:auto;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-   
-/*
-max-width:344px;
-    
- height:auto;
-*/
+   width:344px; 
+    max-width:90%;
+    height: 344px; 
+max-height: 90%;
 
      border-radius: 50%;
 }
@@ -413,6 +413,32 @@ max-width:344px;
 .s-containr3{
     grid-area: s3; 
     
+}
+
+/*menu-container *** ****/*/
+.menu-container{
+    width: 100vw; 
+    height:100vh;
+ 
+}
+.m{
+       background-color:rgba(136, 136, 136,0.3);
+}
+
+.m h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px auto; 
+}
+.menu-container-list{
+    display: grid; 
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-areas: "img1 img2 img3";
+
+}
+
+.img-menu-1 {
+    grid-area: img1;
 }
 
 
