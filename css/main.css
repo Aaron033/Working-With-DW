@@ -1,0 +1,475 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif; }
+
+/*h1's  code ******************** *********************/
+.main-info h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 700; }
+
+.autor {
+  color: #ffa44c;
+  font-size: 1.3rem; }
+
+/*h1's  code  *************************************** */
+.logo {
+  fill: #fff; }
+
+/*main info **********************/
+.main-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+/*main info **********************/
+/*main cover **********************/
+.main-cover {
+  background-image: url(../img/hand-coffee.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: -100;
+  position: relative; }
+
+/*
+.sticky {
+    position: fixed;
+}
+*/
+.main-cover-cover > * {
+  z-index: 2; }
+
+.main-nav > * {
+  z-index: 2; }
+
+.main-cover:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4); }
+
+/*.aside container info   ********** */
+.aside-container {
+  width: 80%;
+  margin: 10px auto; }
+
+/*.aside container info   ********** */
+.nav-list-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: center; }
+
+.nav-list-container li {
+  padding-left: 20px;
+  list-style: none; }
+
+.list-item {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.4rem; }
+
+/*main cover **********************/
+/*about-section **********************/
+.about-section {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "p1 p3  info" "p2 p3 info";
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  position: relative;
+  /*
+  align-content: center;
+      justify-items: center;
+  */ }
+
+.about-image1-container {
+  grid-area: p1;
+  background-image: url(../img/cup-coffe.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 250px;
+  margin-bottom: 10px; }
+
+.about-image2-container {
+  grid-area: p2;
+  background-image: url(../img/pour-coffe.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 250px; }
+
+.about-image3-container {
+  grid-area: p3;
+  background-image: url(../img/drinking-coffee.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+/*coffee icons   ***********************/
+.coffee-icon {
+  width: 80px;
+  heigh: 80px; }
+
+.coffee-icon-nav {
+  width: 60px;
+  heigh: 60px; }
+
+/*coffee icons   ***********************/
+.about-info {
+  grid-area: info;
+  padding: 10px;
+  text-align: center;
+  position: relative; }
+
+.about-info-container {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-10%, -50%); }
+
+.about-button1 {
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  font-size: 1rem;
+  background-color: #ffa44c;
+  color: #fff; }
+
+/*location containers ********** */
+.location-container {
+  background-image: url(../img/location-coffee.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100Vh;
+  width: 100Vw;
+  position: relative; }
+
+.location-container > * {
+  position: relative;
+  z-index: 2; }
+
+.location-container:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); }
+
+.locations-divs {
+  color: aliceblue; }
+
+.locations-divs {
+  width: 90%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  position: relative; }
+
+/*
+.locations-divs p{
+    text-align: left
+}
+*/
+.location-container h2 {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  height: 150px;
+  color: aliceblue; }
+
+.location1, .location2, .location3 {
+  background-color: aliceblue;
+  color: black;
+  margin: 10px;
+  max-width: 350px;
+  margin: 0 auto; }
+
+.location1 {
+  margin-right: 20px; }
+
+.location2 {
+  margin-left: 0px;
+  margin-right: 20px; }
+
+.location3 {
+  margin-left: 0px; }
+
+.location1-img {
+  background-image: url(../img/location1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*
+      min-width: 100px;
+      min-height: auto; 
+  */
+  width: 90%;
+  /*
+      max-width: 305px; 
+     height:90%;
+  */
+  height: 195px;
+  margin: 20px auto;
+  text-align: center; }
+
+.location2-img {
+  background-image: url(../img/location2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 195px;
+  margin: 20px auto; }
+
+.location3-img {
+  background-image: url(../img/location3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 195px;
+  margin: 20px auto; }
+
+.locations-divs img {
+  width: 20px;
+  height: 20px;
+  margin-left: 24px; }
+
+.location-info {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-areas: "l1 ad1" "l2 ad2" "l3 ad3" "bt bt"; }
+
+.location-p {
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-bottom: 20px; }
+
+.location-map {
+  /*
+      padding-left: 10px;
+      padding-right: 10px;
+  */
+  height: 40px;
+  font-size: 1rem;
+  background-color: #ffa44c;
+  color: #fff;
+  margin: 20px;
+  grid-area: bt; }
+
+/*section *********************************  */
+.specialities-container {
+  width: 100vw;
+  height: 80vh; }
+
+.special-main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "s1 s2 s3";
+  justify-items: center; }
+
+.s-img1 {
+  background-image: url(../img/straberry-drink.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 344px;
+  max-width: 90%;
+  height: 344px;
+  max-height: 90%;
+  border-radius: 50%; }
+
+.s-img2 {
+  background-image: url(../img/vanilla%20cake.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 344px;
+  max-width: 90%;
+  height: 344px;
+  max-height: 90%;
+  border-radius: 50%; }
+
+.s-img3 {
+  background-image: url(../img/cappuchino.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 344px;
+  max-width: 90%;
+  height: 344px;
+  max-height: 90%;
+  border-radius: 50%; }
+
+.specialities-container h2 {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  height: 150px;
+  color: #000; }
+
+.s-containr1 {
+  grid-area: s1; }
+
+.s-containr2 {
+  grid-area: s2; }
+
+.s-containr3 {
+  grid-area: s3; }
+
+/*menu-container *** ****/
+.menu-container {
+  width: 100vw;
+  height: 100vh; }
+
+.m {
+  background-color: rgba(136, 136, 136, 0.3); }
+
+.m h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px auto; }
+
+.menu-container-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "img1 img2 img3";
+  justify-items: center; }
+
+.img-menu-1 {
+  grid-area: img1; }
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
+  width: 83.77px;
+  height: 83.77px;
+  border-radius: 50%;
+  background-color: palevioletred; }
+
+.img1 {
+  background-image: url(../img/ice-coffee.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.img2 {
+  background-image: url(../img/yougurt-menu.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+@media (max-width: 29rem) {
+  .main-cover {
+    width: 100vw;
+    height: 100vh;
+    position: relative; }
+
+  .main-info h1 {
+    font-size: 2rem; }
+
+  .main-info h4 {
+    font-size: 1rem; }
+
+  .nav-list-container a {
+    font-size: .8rem; }
+
+  .about-image1-container, .about-image2-container, .about-image3-container {
+    /*        display: none;*/
+    visibility: hidden; }
+
+  /*
+      .aside-container{
+          position: relative; 
+      
+      }
+      */
+  .about-section {
+    margin: 0; }
+
+  .about-info {
+    margin-top: 179px;
+    grid-area: info; }
+
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "info"; }
+
+  .locations-divs {
+    display: flex;
+    flex-direction: column; }
+
+  .locations-divs p {
+    font-size: 0.8rem; }
+
+  .location-info p {
+    font-size: 0.8rem; }
+
+  .nav-list-container li {
+    padding-left: 5px; }
+
+  .location-container {
+    overflow: hidden;
+    height: 100%; }
+
+  .location-container h2 {
+    font-size: 2.3rem;
+    padding: 0px;
+    margin-top: 5px;
+    height: 55px; }
+
+  .location1, .location2, .location3 {
+    margin: 10px; } }
+@media only screen and (max-width: 51rem) and (orientation: landscape) {
+  .nav-list-container a {
+    font-size: 1.1rem; }
+
+  .location-container {
+    overflow: hidden;
+    height: 100%; }
+
+  .location1-img, .location2-img, .location3-img {
+    width: 200px; }
+
+  .location1, .location2, .location3 {
+    width: 240px;
+    margin-right: 5px; }
+
+  .locations-divs {
+    width: 97%;
+    margin-bottom: 10px; }
+
+  .main-cover-cover h1 {
+    font-size: 2rem; }
+
+  .coffe-icon {
+    width: 70px;
+    heigh: 70px; }
+
+  .aside-container {
+    width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */

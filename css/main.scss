@@ -1,3 +1,4 @@
+$button-color: rgb(255, 164, 76); 
 html,body,*{
     margin: 0; 
     padding: 0; 
@@ -11,7 +12,7 @@ html,body,*{
     font-weight: 700;
 }
 .autor{
-    color: rgb(255, 164, 76); 
+    color: $button-color; 
     font-size: 1.3rem;
 }
 /*h1's  code  *************************************** */
@@ -181,7 +182,7 @@ padding-left: 10px;
     padding-right: 10px;
     height: 40px; 
     font-size: 1rem;
-    background-color: rgb(255, 164, 76); ;
+    background-color: $button-color; 
     color: #fff;
     
 }
@@ -337,7 +338,7 @@ padding-left: 10px;
 */
     height: 40px; 
     font-size: 1rem;
-    background-color: rgb(255, 164, 76); ;
+    background-color:$button-color; 
     color: #fff;
     margin:20px;
     grid-area: bt;
@@ -415,7 +416,7 @@ max-height: 90%;
     
 }
 
-/*menu-container *** ****/*/
+/*menu-container *** ****/
 .menu-container{
     width: 100vw; 
     height:100vh;
@@ -500,8 +501,10 @@ max-height: 90%;
     }
     .about-section{
       display: grid;
-      grid-template-columns: 1fr; 
-        grid-template-areas: "info"; 
+        grid:{
+        template-columns: 1fr; 
+        template-areas: "info"; 
+            }
     }
   
     .locations-divs{
@@ -530,7 +533,7 @@ max-height: 90%;
         height: 55px;
     }
     .location1,.location2,.location3{
-        margin: 10px;  0;
+        margin: 10px;
     }
 
 }
