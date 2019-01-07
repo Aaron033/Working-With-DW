@@ -11,51 +11,51 @@
 }
 
 /*.aside container info   ********** */
-.about-section{
+.about-section-container{
   
-margin:50px;
+
     display: grid; 
     grid:{
         template-columns: repeat(3, 1fr); 
-        template-areas: "p1 p3  info"
+        template-areas:  "p1  p3  info"
                          "p2 p3 info"; 
-        template-rows: repeat(2,1fr);
+
         gap: 10px;
     }
-    position: relative;
+
 
 }
 
 .about-image1-container{
-   
+   grid-area: p1; 
     background-image: url(../img/cup-coffe.jpg); 
    @include background-style(); 
     min-height: 250px;
     margin-bottom: 10px;
         
 }
-.a1{ 
-grid-area: p1; 
-}
+//.a1{ 
+//grid-area: p1; 
+//}
 
-.a2{
-     grid-area: p2; 
-}
+//.a2{
+//     grid-area: p2; 
+//}
 .about-image2-container{
-   
+    grid-area: p2; 
      background-image: url(../img/pour-coffe.jpg); 
     @include background-style(); 
   min-height: 250px;
 }
 
-.a3{
-    grid-area:  p3;
-}
+//.a3{
+//    grid-area:  p3;
+//}
 .about-image3-container{
    
      background-image: url(../img/drinking-coffee.jpg); 
     @include background-style(); 
-    width: 100%;
+grid-area:  p3;
     height: 500px;
 }
 
@@ -66,11 +66,11 @@ grid-area: p1;
 /*coffee icons   ***********************/
 .coffee-icon{
     width:80px; 
-    heigh:80px;
+    max-height:80px;
 }
 .coffee-icon-nav{
     width:60px; 
-    heigh:60px;
+    height:60px;
 }
 
 /*coffee icons   ***********************/

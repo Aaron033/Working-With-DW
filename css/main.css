@@ -91,16 +91,14 @@ html, body, * {
   background-color: rgba(255, 248, 235, 0.4); }
 
 /*.aside container info   ********** */
-.about-section {
-  margin: 50px;
+.about-section-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "p1 p3  info" "p2 p3 info";
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 10px;
-  position: relative; }
+  grid-template-areas: "p1  p3  info" "p2 p3 info";
+  grid-gap: 10px; }
 
 .about-image1-container {
+  grid-area: p1;
   background-image: url(../img/cup-coffe.jpg);
   background-position: center center;
   background-size: cover;
@@ -108,28 +106,20 @@ html, body, * {
   min-height: 250px;
   margin-bottom: 10px; }
 
-.a1 {
-  grid-area: p1; }
-
-.a2 {
-  grid-area: p2; }
-
 .about-image2-container {
+  grid-area: p2;
   background-image: url(../img/pour-coffe.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 250px; }
 
-.a3 {
-  grid-area: p3; }
-
 .about-image3-container {
   background-image: url(../img/drinking-coffee.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  grid-area: p3;
   height: 500px; }
 
 .about-info-container {
@@ -138,11 +128,11 @@ html, body, * {
 /*coffee icons   ***********************/
 .coffee-icon {
   width: 80px;
-  heigh: 80px; }
+  max-height: 80px; }
 
 .coffee-icon-nav {
   width: 60px;
-  heigh: 60px; }
+  height: 60px; }
 
 /*coffee icons   ***********************/
 .about-button1 {
