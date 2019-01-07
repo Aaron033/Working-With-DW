@@ -35,15 +35,8 @@ html,body,*{
 .main-cover { 
 background-image: url(../img/hand-coffee.jpg);
 @include background-fixed();
-    z-index: -100; 
+    z-index: -1; 
 }
-
-
-/*
-.sticky {
-    position: fixed;
-}
-*/
 
 .main-cover-cover > * {
     z-index: 2;
@@ -78,11 +71,14 @@ background-image: url(../img/hand-coffee.jpg);
     width: 100%;
     align-items: center;
     justify-content: center;
+
 }
 
 .nav-list-container li{
     padding-left: 20px;
     list-style: none;
+   
+
 }
 
 .list-item{
@@ -91,6 +87,15 @@ background-image: url(../img/hand-coffee.jpg);
     text-transform: capitalize;
     font-weight: 700;
     font-size: 1.4rem;
+   
+}
+.list-item:hover{
+    color: $button-color; 
+}
+
+.nav-list-container a:hover{
+
+    color:$button-color !important;
     
 }
 
@@ -246,10 +251,9 @@ padding-left: 10px;
 .location1-img{
     background-image: url(../img/location1.jpg);
    @include background-style();
-
  @include location-img-mea();
- 
     text-align: center;
+ 
 }
 .location2-img{
     background-image: url(../img/location2.jpg);
@@ -285,10 +289,6 @@ padding-left: 10px;
    
 }
 .location-map{
-/*
-    padding-left: 10px;
-    padding-right: 10px;
-*/
     height: 40px; 
     font-size: 1rem;
     background-color:$button-color; 
@@ -310,6 +310,11 @@ padding-left: 10px;
     }
      
 justify-items: center; 
+    
+    h5{
+        font-size: .9rem;
+        color:$button-color; 
+    }
     
 }
 
@@ -341,17 +346,20 @@ justify-items: center;
 
 .s-containr1{
     grid-area: s1; 
-    
+     @include s-width-textalign();
+  
+        
 }
 
 .s-containr2{
     grid-area: s2; 
-    
+ @include s-width-textalign();
 }
 .s-containr3{
     grid-area: s3; 
+   @include s-width-textalign();
     
-}
+} 
 
 /*menu-container *** ****/
 .menu-container{
@@ -451,6 +459,7 @@ justify-items: center;
     height: 83.77px; 
     border-radius: 50%;
     background-color:palevioletred; 
+    cursor: pointer;
 }
 
 .menu-container-list div{
@@ -515,7 +524,15 @@ justify-items: center;
   border-top: 2px dashed #322f32;
   background: none;
   height:0;
+
 } 
+
+.menu-container-list {
+    h4 {
+        font-size: .9rem;
+        color: $button-color;
+    }
+}
 
 //news-events 
 .news-events-container{

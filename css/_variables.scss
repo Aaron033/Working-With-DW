@@ -17,17 +17,22 @@ $button-color: rgb(255, 164, 76);
 }
 
 @mixin s-width-height() {
+
     width: 344px;
-    max-width: 90%;
+    max-width: 344px;
     height: 344px;
-    max-height: 90%;
+    max-height: 344px;
     border-radius: 50%;
 }
 
 @mixin location-img-mea(){
-         width: 90%; 
-
+   width: 90%; 
    height: 195px; 
-    
     margin: 20px auto;
+     cursor:pointer; 
+}
+
+@mixin s-width-textalign(){
+    border-radius: 50%;
+    text-align: center;
 }

@@ -37,13 +37,8 @@ html, body, * {
   height: 100vh;
   width: 100vw;
   position: relative;
-  z-index: -100; }
+  z-index: -1; }
 
-/*
-.sticky {
-    position: fixed;
-}
-*/
 .main-cover-cover > * {
   z-index: 2; }
 
@@ -86,6 +81,12 @@ html, body, * {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 1.4rem; }
+
+.list-item:hover {
+  color: #ffa44c; }
+
+.nav-list-container a:hover {
+  color: #ffa44c !important; }
 
 /*main cover **********************/
 /*about-section **********************/
@@ -220,6 +221,7 @@ html, body, * {
   width: 90%;
   height: 195px;
   margin: 20px auto;
+  cursor: pointer;
   text-align: center; }
 
 .location2-img {
@@ -229,7 +231,8 @@ html, body, * {
   background-repeat: no-repeat;
   width: 90%;
   height: 195px;
-  margin: 20px auto; }
+  margin: 20px auto;
+  cursor: pointer; }
 
 .location3-img {
   background-image: url(../img/location3.jpg);
@@ -238,7 +241,8 @@ html, body, * {
   background-repeat: no-repeat;
   width: 90%;
   height: 195px;
-  margin: 20px auto; }
+  margin: 20px auto;
+  cursor: pointer; }
 
 .locations-divs img {
   width: 20px;
@@ -256,10 +260,6 @@ html, body, * {
   padding-bottom: 20px; }
 
 .location-map {
-  /*
-      padding-left: 10px;
-      padding-right: 10px;
-  */
   height: 40px;
   font-size: 1rem;
   background-color: #ffa44c;
@@ -277,6 +277,9 @@ html, body, * {
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "s1 s2 s3";
   justify-items: center; }
+  .special-main-container h5 {
+    font-size: .9rem;
+    color: #ffa44c; }
 
 .s-img1 {
   background-image: url(../img/straberry-drink.jpg);
@@ -284,9 +287,9 @@ html, body, * {
   background-size: cover;
   background-repeat: no-repeat;
   width: 344px;
-  max-width: 90%;
+  max-width: 344px;
   height: 344px;
-  max-height: 90%;
+  max-height: 344px;
   border-radius: 50%; }
 
 .s-img2 {
@@ -295,9 +298,9 @@ html, body, * {
   background-size: cover;
   background-repeat: no-repeat;
   width: 344px;
-  max-width: 90%;
+  max-width: 344px;
   height: 344px;
-  max-height: 90%;
+  max-height: 344px;
   border-radius: 50%; }
 
 .s-img3 {
@@ -306,9 +309,9 @@ html, body, * {
   background-size: cover;
   background-repeat: no-repeat;
   width: 344px;
-  max-width: 90%;
+  max-width: 344px;
   height: 344px;
-  max-height: 90%;
+  max-height: 344px;
   border-radius: 50%; }
 
 .specialities-container h2 {
@@ -320,13 +323,19 @@ html, body, * {
   color: #000; }
 
 .s-containr1 {
-  grid-area: s1; }
+  grid-area: s1;
+  border-radius: 50%;
+  text-align: center; }
 
 .s-containr2 {
-  grid-area: s2; }
+  grid-area: s2;
+  border-radius: 50%;
+  text-align: center; }
 
 .s-containr3 {
-  grid-area: s3; }
+  grid-area: s3;
+  border-radius: 50%;
+  text-align: center; }
 
 /*menu-container *** ****/
 .menu-container {
@@ -405,7 +414,8 @@ html, body, * {
   width: 83.77px;
   height: 83.77px;
   border-radius: 50%;
-  background-color: palevioletred; }
+  background-color: palevioletred;
+  cursor: pointer; }
 
 .menu-container-list div {
   margin: 10px auto; }
@@ -487,6 +497,10 @@ html, body, * {
   border-top: 2px dashed #322f32;
   background: none;
   height: 0; }
+
+.menu-container-list h4 {
+  font-size: .9rem;
+  color: #ffa44c; }
 
 .news-events-container {
   width: 100vw;
