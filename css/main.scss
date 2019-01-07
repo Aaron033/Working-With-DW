@@ -216,7 +216,7 @@ justify-items: center;
     .nav-list-container a{
         font-size: .8rem;
     }
-    
+//    About container  ******** ******** ******** ******** ********
     .about-image1-container, .about-image2-container,.about-image3-container{
         visibility: hidden;
     }
@@ -226,16 +226,17 @@ justify-items: center;
     .about-info{
         margin-top: 179px; 
         grid-area: info;
+       
   
     }
-    .about-section{
+    .about-section-container{
       display: grid;
         grid:{
         template-columns: 1fr; 
         template-areas: "info"; 
             }
     }
-  
+ //    About container  ******** ******** ******** ******** ******** 
     .locations-divs{
 
         display: flex; 

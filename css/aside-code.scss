@@ -32,6 +32,7 @@
    @include background-style(); 
     min-height: 250px;
     margin-bottom: 10px;
+    max-width: 90%;
         
 }
 //.a1{ 
@@ -46,22 +47,24 @@
      background-image: url(../img/pour-coffe.jpg); 
     @include background-style(); 
   min-height: 250px;
+    max-width: 90%;
 }
 
 //.a3{
 //    grid-area:  p3;
 //}
 .about-image3-container{
-   
+ 
      background-image: url(../img/drinking-coffee.jpg); 
     @include background-style(); 
 grid-area:  p3;
-    height: 500px;
+    max-width: 70%;
+    height: 520px;
 }
 
 .about-info-container{
     grid-area: info;
- 
+ text-align: center;
 }
 /*coffee icons   ***********************/
 .coffee-icon{
