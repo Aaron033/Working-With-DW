@@ -273,7 +273,8 @@ html, body, * {
 .s {
   position: relative;
   background-color: rgba(255, 248, 235, 0.4);
-  height: 100%; }
+  height: 100%;
+  visibility: hidden; }
 
 .specialities-container {
   height: 100%; }
@@ -309,7 +310,8 @@ html, body, * {
   height: 300px;
   max-height: 90%;
   margin: 0 auto;
-  border-radius: 50%; }
+  border-radius: 50%;
+  visibility: hidden; }
 
 .s-img3 {
   background-image: url(../img/cappuchino.jpg);
@@ -321,7 +323,8 @@ html, body, * {
   height: 300px;
   max-height: 90%;
   margin: 0 auto;
-  border-radius: 50%; }
+  border-radius: 50%;
+  visibility: hidden; }
 
 .specialities-container h2 {
   padding-top: 50px;
@@ -339,12 +342,14 @@ html, body, * {
 .s-containr2 {
   grid-area: s2;
   border-radius: 50%;
-  text-align: center; }
+  text-align: center;
+  visibility: hidden; }
 
 .s-containr3 {
   grid-area: s3;
   border-radius: 50%;
-  text-align: center; }
+  text-align: center;
+  visibility: hidden; }
 
 /*menu-container *** ****/
 .m {

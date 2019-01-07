@@ -110,6 +110,7 @@ background-image: url(../img/hand-coffee.jpg);
        position: relative; 
     background-color: $sections-color;
     height: 100%;
+    visibility: hidden;
 }
 //.ribbon-container{
 //    position: relative;
@@ -154,12 +155,14 @@ justify-items: center;
     background-image: url(../img/vanilla%20cake.jpg); 
     @include background-style();
  @include s-width-height();
+   visibility: hidden; 
     
 }
 .s-img3{
     background-image: url(../img/cappuchino.jpg); 
    @include background-style();
  @include s-width-height();
+      visibility: hidden; 
 }
 
 .specialities-container h2{
@@ -181,10 +184,12 @@ justify-items: center;
 .s-containr2{
     grid-area: s2; 
  @include s-width-textalign();
+     visibility: hidden; 
 }
 .s-containr3{
     grid-area: s3; 
    @include s-width-textalign();
+     visibility: hidden; 
     
 } 
 
