@@ -54,13 +54,6 @@ html, body, * {
   height: 100vh;
   background: rgba(0, 0, 0, 0.4); }
 
-/*.aside container info   ********** */
-.aside-container {
-  width: 80%;
-  margin: 10px auto;
-  background-color: rgba(255, 248, 235, 0.4) !important; }
-
-/*.aside container info   ********** */
 .nav-list-container {
   display: flex;
   flex-direction: row;
@@ -91,18 +84,23 @@ html, body, * {
 
 /*main cover **********************/
 /*about-section **********************/
+/*.aside container info   ********** */
+.about-section-container {
+  width: 80%;
+  margin: 10px auto;
+  background-color: rgba(255, 248, 235, 0.4); }
+
+/*.aside container info   ********** */
 .about-section {
   margin: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "p1 p3  info" "p2 p3 info";
-  grid-template-rows: auto auto;
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
-  position: relative;
-  background-color: rgba(255, 248, 235, 0.4); }
+  position: relative; }
 
 .about-image1-container {
-  grid-area: p1;
   background-image: url(../img/cup-coffe.jpg);
   background-position: center center;
   background-size: cover;
@@ -110,20 +108,32 @@ html, body, * {
   min-height: 250px;
   margin-bottom: 10px; }
 
+.a1 {
+  grid-area: p1; }
+
+.a2 {
+  grid-area: p2; }
+
 .about-image2-container {
-  grid-area: p2;
   background-image: url(../img/pour-coffe.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 250px; }
 
+.a3 {
+  grid-area: p3; }
+
 .about-image3-container {
-  grid-area: p3;
   background-image: url(../img/drinking-coffee.jpg);
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px; }
+
+.about-info-container {
+  grid-area: info; }
 
 /*coffee icons   ***********************/
 .coffee-icon {
@@ -135,18 +145,6 @@ html, body, * {
   heigh: 60px; }
 
 /*coffee icons   ***********************/
-.about-info {
-  grid-area: info;
-  padding: 10px;
-  text-align: center;
-  position: relative; }
-
-.about-info-container {
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  transform: translate(-10%, -50%); }
-
 .about-button1 {
   margin-top: 20px;
   padding-left: 10px;
