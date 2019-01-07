@@ -58,7 +58,7 @@ html, body, * {
 .aside-container {
   width: 80%;
   margin: 10px auto;
-  background-color: #FFF8EB !important; }
+  background-color: rgba(255, 248, 235, 0.4) !important; }
 
 /*.aside container info   ********** */
 .nav-list-container {
@@ -99,7 +99,7 @@ html, body, * {
   grid-template-rows: auto auto;
   grid-gap: 10px;
   position: relative;
-  background-color: #FFF8EB; }
+  background-color: rgba(255, 248, 235, 0.4); }
 
 .about-image1-container {
   grid-area: p1;
@@ -272,7 +272,7 @@ html, body, * {
 /*section *********************************  */
 .s {
   position: relative;
-  background-color: #FFF8EB;
+  background-color: rgba(255, 248, 235, 0.4);
   height: 100%; }
 
 .specialities-container {
@@ -348,7 +348,7 @@ html, body, * {
 
 /*menu-container *** ****/
 .m {
-  background-color: rgba(136, 136, 136, 0.3);
+  background-color: rgba(136, 136, 136, 0.1);
   width: 100vw;
   height: 100vh; }
 
@@ -500,7 +500,7 @@ html, body, * {
 
 .dash {
   border: 0 none;
-  border-top: 2px dashed #322f32;
+  border-top: 2px dashed rgba(50, 47, 50, 0.3);
   background: none;
   height: 0; }
 
@@ -516,6 +516,9 @@ html, body, * {
 .news-events-container h1 {
   text-align: center;
   font-size: 3rem; }
+
+.press-container {
+  position: relative; }
 
 .aboout-Us-main-container {
   background-image: url(../img/cafee.jpg);
@@ -628,7 +631,7 @@ html, body, * {
   .img-menu-12 {
     display: none; } }
 .news-events-container {
-  background-color: #FFF8EB; }
+  background-color: rgba(255, 248, 235, 0.4); }
 
 @media only screen and (max-width: 51rem) and (orientation: landscape) {
   .nav-list-container a {

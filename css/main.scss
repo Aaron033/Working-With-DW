@@ -191,17 +191,8 @@ justify-items: center;
 
 @import "menu.scss"; 
 
-//news-events 
-.news-events-container{
-    width: 100vw; 
-    height: 100vh; 
-    background-color: papayawhip;
-}
-.news-events-container h1{
-    text-align: center;
-    font-size: 3rem;
-}
-
+@import "news.scss"; 
+@import "press.scss"; 
 
 //aboout-Us-main-container  ****************************************
 .aboout-Us-main-container{
