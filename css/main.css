@@ -270,7 +270,7 @@ html, body, * {
 /*section *********************************  */
 .specialities-container {
   width: 100vw;
-  height: 80vh; }
+  height: 100vh; }
 
 .special-main-container {
   display: grid;
@@ -341,12 +341,10 @@ html, body, * {
   text-align: center; }
 
 /*menu-container *** ****/
-.menu-container {
+.m {
+  background-color: rgba(136, 136, 136, 0.3);
   width: 100vw;
   height: 100vh; }
-
-.m {
-  background-color: rgba(136, 136, 136, 0.3); }
 
 .m h2 {
   font-size: 3rem;
@@ -359,8 +357,7 @@ html, body, * {
 .menu-container-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9" "img10 img11 img12";
-  justify-items: center; }
+  grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9" "img10 img11 img12"; }
 
 .img-menu-1 {
   grid-area: img1;
@@ -424,7 +421,7 @@ html, body, * {
   cursor: pointer; }
 
 .menu-container-list div {
-  margin: 10px auto; }
+  margin: 10px 10px; }
 
 .img1 {
   background-image: url(../img/ice-coffee.jpg);
@@ -573,15 +570,17 @@ html, body, * {
   .location1, .location2, .location3 {
     margin: 10px; }
 
+  .m {
+    height: 100%; }
+
   .menu-container-list {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8";
-    align-items: start;
-    justify-items: start; }
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8"; }
 
   .img-menu-1 {
-    grid-area: img1; }
+    grid-area: img1;
+    justify-content: flex-start; }
 
   .img-menu-2 {
     grid-area: img2; }
