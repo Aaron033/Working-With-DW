@@ -1,0 +1,78 @@
+@import "_variables.scss"; 
+
+
+/*about-section **********************/
+
+.about-section{
+  
+margin:50px;
+    display: grid; 
+    grid:{
+        template-columns: repeat(3, 1fr); 
+        template-areas: "p1 p3  info"
+                         "p2 p3 info"; 
+        template-rows: auto auto;
+        gap: 10px;
+    }
+    position: relative;
+   background-color:  $sections-color;
+}
+
+.about-image1-container{
+   grid-area: p1; 
+    background-image: url(../img/cup-coffe.jpg); 
+   @include background-style(); 
+    min-height: 250px;
+    margin-bottom: 10px;
+        
+}
+
+.about-image2-container{
+    grid-area: p2; 
+
+       
+     background-image: url(../img/pour-coffe.jpg); 
+    @include background-style(); 
+  min-height: 250px;
+}
+
+.about-image3-container{
+   grid-area:  p3;
+     background-image: url(../img/drinking-coffee.jpg); 
+    @include background-style(); 
+}
+/*coffee icons   ***********************/
+.coffee-icon{
+    width:80px; 
+    heigh:80px;
+}
+.coffee-icon-nav{
+    width:60px; 
+    heigh:60px;
+}
+
+/*coffee icons   ***********************/
+.about-info{
+    grid-area: info;
+    padding: 10px;
+    text-align: center;
+    position: relative; 
+  
+}
+.about-info-container{
+    position: absolute; 
+     top: 50%;
+  left: 20%;
+    transform: translate(-10%, -50%);
+ 
+}
+.about-button1{
+    margin-top: 20px;
+padding-left: 10px;
+    padding-right: 10px;
+    height: 40px; 
+    font-size: 1rem;
+    background-color: $button-color; 
+    color: #fff;
+    
+}

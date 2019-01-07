@@ -57,7 +57,8 @@ html, body, * {
 /*.aside container info   ********** */
 .aside-container {
   width: 80%;
-  margin: 10px auto; }
+  margin: 10px auto;
+  background-color: #FFF8EB !important; }
 
 /*.aside container info   ********** */
 .nav-list-container {
