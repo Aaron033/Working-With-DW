@@ -268,9 +268,23 @@ html, body, * {
   grid-area: bt; }
 
 /*section *********************************  */
+.ribbon-container {
+  position: absolute;
+  width: 250px;
+  right: 37%;
+  top: 13%; }
+
+.ribbon {
+  width: 200px;
+  height: 150px; }
+
 .specialities-container {
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
+
+.specialities-container {
+  height: 100%; }
 
 .special-main-container {
   display: grid;
@@ -350,9 +364,6 @@ html, body, * {
   font-size: 3rem;
   text-align: center;
   margin: 40px auto; }
-
-.specialities-container {
-  height: 100%; }
 
 .menu-container-list {
   display: grid;
