@@ -1,0 +1,178 @@
+@import "_variables.scss"; 
+
+/*menu-container *** ****/
+
+.m{
+       background-color:rgba(136, 136, 136,0.3);
+    width: 100vw; 
+    height:100vh;
+}
+
+.m h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top:0; 
+    
+}
+
+
+.menu-container-list{
+    display: grid; 
+    grid:{
+        template-columns: repeat(3, 1fr); 
+        template-areas: "img1 img2 img3"
+    "img4 img5 img6"
+    "img7 img8 img9"
+    "img10 img11 img12"; 
+    }
+    
+    
+
+
+}
+
+.img-menu-1 {
+    grid-area: img1;
+    position: relative;
+  
+}
+
+  .menu-info{
+        width: 170px;
+        position: absolute;
+        top:15%;
+      transform: translateX(120px); 
+       
+    }
+
+
+.img-menu-2 {
+    grid-area: img2;
+     position: relative;
+}
+.img-menu-3 {
+    grid-area: img3;
+    position: relative;
+}
+
+.img-menu-4 {
+    grid-area: img4;
+     position: relative;
+}
+.img-menu-5 {
+    grid-area: img5;
+    position: relative;
+}
+.img-menu-6 {
+    grid-area: img6;
+     position: relative;
+}
+.img-menu-7 {
+    grid-area: img7;
+    position: relative;
+}
+.img-menu-8 {
+    grid-area: img8;
+     position: relative;
+}
+.img-menu-9 {
+    grid-area: img9;
+    position: relative;
+}
+.img-menu-10 {
+    grid-area: img10;
+     position: relative;
+}
+.img-menu-11 {
+    grid-area: img11;
+    position: relative;
+}
+
+
+.img-menu-12 {
+    grid-area: img12;
+    position: relative;
+}
+
+
+
+
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+    width: 83.77px; 
+    height: 83.77px; 
+    border-radius: 50%;
+    background-color:palevioletred; 
+    cursor: pointer;
+}
+
+.menu-container-list div{
+  margin: 10px 10px;
+}
+
+
+.img1{
+    background-image: url(../img/ice-coffee.jpg); 
+   @include background-style();
+}
+
+.img2{
+    background-image: url(../img/yougurt-menu.jpg);
+  @include background-style();
+}
+
+.img3{
+     background-image: url(../img/icecream-menu.jpg);
+  @include background-style();
+}
+.img4{
+     background-image: url(../img/oatmeal-menu.jpg);
+  @include background-style();
+}
+.img5{
+     background-image: url(../img/Rasperry-menu.jpg);
+  @include background-style();
+}
+.img6{
+     background-image: url(../img/chocolate-cake.jpg);
+  @include background-style();
+}
+.img7{
+     background-image: url(../img/kiwi-menu.jpg);
+  @include background-style();
+}
+.img8{
+     background-image: url(../img/apple-pie-menu.jpg);
+  @include background-style();
+}
+.img9{
+     background-image: url(../img/french-toast-special-menu.jpg);
+  @include background-style();
+}
+.img10{
+     background-image: url(../img/passionfruit-menu.jpg);
+  @include background-style();
+}.img11{
+     background-image: url(../img/casey-lee-soup-menu.jpg);
+  @include background-style();
+}
+.img12{
+     background-image: url(../img/engilsh-waffles-menu.jpg);
+  @include background-style();
+}
+
+
+
+.dash{
+  border: 0 none;
+  border-top: 2px dashed #322f32;
+  background: none;
+  height:0;
+
+} 
+
+.menu-container-list {
+    h4 {
+        font-size: .9rem;
+        color: $button-color;
+    }
+}

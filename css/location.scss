@@ -1,0 +1,121 @@
+@import "_variables.scss"; 
+
+/*location containers ********** */
+.location-container{
+    background-image: url(../img/location-coffee.jpg); 
+@include background-fixed();
+}
+
+.location-container > * {
+    position: relative; 
+    z-index: 2; 
+}
+
+.location-container:after{
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    top:0; 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0,0,0,0.4); 
+}
+
+
+.locations-divs{
+    color: aliceblue;
+}
+
+
+.locations-divs {
+    width: 90%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    
+}
+
+.location-container h2{
+    padding-top:50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    height:150px;
+    color:aliceblue;
+}
+
+.location1,.location2,.location3{
+    background-color: aliceblue;
+    color:black;
+    margin: 10px;
+
+    max-width: 350px;
+    margin: 0 auto; 
+    
+}
+
+.location1{
+   
+    margin-right: 20px; 
+}
+.location2 {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.location3 {
+    margin-left: 0px;
+ 
+       
+}
+
+.location1-img{
+    background-image: url(../img/location1.jpg);
+   @include background-style();
+ @include location-img-mea();
+    text-align: center;
+ 
+}
+.location2-img{
+    background-image: url(../img/location2.jpg);
+    @include background-style();
+   @include location-img-mea();
+}
+.location3-img{
+    background-image: url(../img/location3.jpg);
+  @include background-style();
+    @include location-img-mea();
+}
+
+.locations-divs img{
+
+    width:20px;
+    height: 20px; 
+     margin-left:24px;
+   
+}
+
+.location-info{
+    display: grid;
+    grid-template-columns: 50px 1fr; 
+    grid-template-areas: "l1 ad1"
+                          "l2 ad2"
+                           "l3 ad3"
+                            "bt bt"; 
+}
+.location-p {
+  margin-left:24px;
+    margin-right:24px;
+    padding-bottom: 20px; 
+   
+}
+.location-map{
+    height: 40px; 
+    font-size: 1rem;
+    background-color:$button-color; 
+    color: #fff;
+    margin:20px;
+    grid-area: bt;
+}
