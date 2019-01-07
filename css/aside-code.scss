@@ -3,11 +3,16 @@
 
 /*about-section **********************/
 /*.aside container info   ********** */
-
-.about-section-container{
-    width: 80%; 
-     margin: 10px auto; 
+.about-section{
     background-color: $sections-color;
+    padding: 10px; 
+}
+.about-section-container{
+    width:80%; 
+     margin: 0 auto; 
+    background-color: $sections-color;
+    position: relative;
+    
 }
 
 /*.aside container info   ********** */
@@ -62,9 +67,16 @@ grid-area:  p3;
     height: 520px;
 }
 
-.about-info-container{
+.about-info{
+ position: relative;
     grid-area: info;
- text-align: center;
+    text-align: center;
+     position: absolute;
+    width: 100%;
+    top:30%;
+}
+.about-info-containe{
+   
 }
 /*coffee icons   ***********************/
 .coffee-icon{
@@ -79,13 +91,6 @@ grid-area:  p3;
 /*coffee icons   ***********************/
 
 
-//.about-info{
-//    position: absolute; 
-//     top: 50%;
-//  left: 10%;
-//    transform: translate(-50%, -50%);
-// 
-//}
 .about-button1{
     margin-top: 20px;
 padding-left: 10px;
