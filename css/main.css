@@ -97,7 +97,8 @@ html, body, * {
   grid-template-areas: "p1 p3  info" "p2 p3 info";
   grid-template-rows: auto auto;
   grid-gap: 10px;
-  position: relative; }
+  position: relative;
+  background-color: #FFF8EB; }
 
 .about-image1-container {
   grid-area: p1;
@@ -269,11 +270,9 @@ html, body, * {
 
 /*section *********************************  */
 .s {
-  position: relative; }
-
-.specialities-container {
-  width: 100vw;
-  height: 100vh; }
+  position: relative;
+  background-color: #FFF8EB;
+  height: 100%; }
 
 .specialities-container {
   height: 100%; }
@@ -355,7 +354,7 @@ html, body, * {
 .m h2 {
   font-size: 3rem;
   text-align: center;
-  margin: 40px auto; }
+  margin-top: 0; }
 
 .menu-container-list {
   display: grid;
@@ -518,7 +517,14 @@ html, body, * {
   font-size: 3rem; }
 
 .aboout-Us-main-container {
-  background-image: url(); }
+  background-image: url(../img/cafee.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  position: relative; }
 
 @media (max-width: 29rem) {
   .main-cover {
@@ -620,6 +626,9 @@ html, body, * {
 
   .img-menu-12 {
     display: none; } }
+.news-events-container {
+  background-color: #FFF8EB; }
+
 @media only screen and (max-width: 51rem) and (orientation: landscape) {
   .nav-list-container a {
     font-size: 1.1rem; }

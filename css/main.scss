@@ -115,14 +115,13 @@ margin:50px;
         gap: 10px;
     }
     position: relative;
-    
+   background-color:  $sections-color;
 }
 
 .about-image1-container{
    grid-area: p1; 
     background-image: url(../img/cup-coffe.jpg); 
    @include background-style(); 
-    
     min-height: 250px;
     margin-bottom: 10px;
         
@@ -300,6 +299,8 @@ padding-left: 10px;
 /*section *********************************  */
 .s{
        position: relative; 
+    background-color: $sections-color;
+    height: 100%;
 }
 //.ribbon-container{
 //    position: relative;
@@ -315,11 +316,7 @@ padding-left: 10px;
 //    height: 110px;
 //   
 //}
-.specialities-container{
-    width: 100vw; 
-    height: 100vh; 
- 
-}
+
 .specialities-container{
     height: 100%;
 }
@@ -393,7 +390,8 @@ justify-items: center;
 .m h2{
     font-size: 3rem;
     text-align: center;
-    margin: 40px auto; 
+    margin-top:0; 
+    
 }
 
 
@@ -572,7 +570,8 @@ justify-items: center;
 
 //aboout-Us-main-container  ****************************************
 .aboout-Us-main-container{
-    background-image: url(); 
+    background-image: url(../img/cafee.jpg); 
+    @include background-fixed(); 
 }
 @media (max-width: 29rem){
     .main-cover{
@@ -712,7 +711,9 @@ justify-items: center;
     
     
 }
-
+.news-events-container{
+    background-color: $sections-color;
+}
 
 @media only screen and (max-width: 51rem) and (orientation: landscape){
     .nav-list-container a {
