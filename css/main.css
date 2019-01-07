@@ -268,20 +268,12 @@ html, body, * {
   grid-area: bt; }
 
 /*section *********************************  */
-.ribbon-container {
-  position: absolute;
-  width: 250px;
-  right: 37%;
-  top: 13%; }
-
-.ribbon {
-  width: 200px;
-  height: 150px; }
+.s {
+  position: relative; }
 
 .specialities-container {
   width: 100vw;
-  height: 100vh;
-  position: relative; }
+  height: 100vh; }
 
 .specialities-container {
   height: 100%; }
@@ -524,6 +516,9 @@ html, body, * {
 .news-events-container h1 {
   text-align: center;
   font-size: 3rem; }
+
+.aboout-Us-main-container {
+  background-image: url(); }
 
 @media (max-width: 29rem) {
   .main-cover {
