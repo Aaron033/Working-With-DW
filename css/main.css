@@ -527,7 +527,7 @@ html, body, * {
   display: flex;
   flex-direction: row; }
   .main-events-container .me {
-    background-color: dimgrey; }
+    background-color: rgba(136, 136, 136, 0.1); }
 
 .press-container {
   position: relative; }
@@ -547,6 +547,10 @@ html, body, * {
 .sub-container {
   display: flex;
   flex-direction: row; }
+
+.sub1, .sub2, .sub3, .sub4 {
+  background-color: #fff;
+  margin: 5px; }
 
 .aboout-Us-main-container {
   background-image: url(../img/cafee.jpg);
