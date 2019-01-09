@@ -523,6 +523,10 @@ html, body, * {
   text-align: center;
   font-size: 3rem; }
 
+.main-events-container {
+  display: flex;
+  flex-direction: row; }
+
 .press-container {
   position: relative; }
 
