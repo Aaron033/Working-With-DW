@@ -9,9 +9,8 @@
 }
 
 .m h2{
-    font-size: 3rem;
-    text-align: center;
-    margin-top:0; 
+    @include header-menu(); 
+   
     
 }
 

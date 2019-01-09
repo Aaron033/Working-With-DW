@@ -38,3 +38,11 @@ $sections-color:rgba(255, 248, 235,0.4);
     border-radius: 50%;
     text-align: center;
 }
+
+@mixin header-menu(){
+    padding-top:50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    height:150px;
+}

@@ -354,9 +354,11 @@ html, body, * {
   height: 100vh; }
 
 .m h2 {
-  font-size: 3rem;
+  padding-top: 50px;
   text-align: center;
-  margin-top: 0; }
+  font-weight: 700;
+  font-size: 3rem;
+  height: 150px; }
 
 .menu-container-list {
   display: grid;
@@ -515,8 +517,11 @@ html, body, * {
   background-color: papayawhip; }
 
 .news-events-container h1 {
+  padding-top: 50px;
   text-align: center;
-  font-size: 3rem; }
+  font-weight: 700;
+  font-size: 3rem;
+  height: 150px; }
 
 .main-events-container {
   display: flex;
@@ -528,7 +533,12 @@ html, body, * {
   position: relative; }
 
 .aboout-Us-main-container h1 {
-  text-align: center; }
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  height: 150px;
+  color: #fff; }
 
 .press-container {
   width: 90%;

@@ -38,11 +38,8 @@
 }
 
 .location-container h2{
-    padding-top:50px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 3rem;
-    height:150px;
+    @include header-menu(); 
+  
     color:aliceblue;
 }
 

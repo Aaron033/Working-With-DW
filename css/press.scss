@@ -3,7 +3,8 @@
     position: relative;
 }
 .aboout-Us-main-container h1{
-    text-align: center; 
+   @include header-menu();
+    color: #fff;
 }
 .press-container{
     width: 90%; 
