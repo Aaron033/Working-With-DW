@@ -64,7 +64,16 @@ html, body, * {
 .list-item:hover {
   color: #ffa44c; }
 
-.nav-list-container a:hover {
+.nav-list-container a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #ffa44c;
+  transition: width .3s; }
+
+.nav-list-container a:hover:after {
+  width: 100%;
   color: #ffa44c;
   border-bottom: 6px solid #ffa44c; }
 

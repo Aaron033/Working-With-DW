@@ -90,8 +90,16 @@ background-image: url(../img/hand-coffee.jpg);
     
 }
 
-.nav-list-container a:hover{
-
+.nav-list-container a::after{
+    content:'';
+    display: block; 
+    width: 0; 
+    height: 1px; 
+    background: $button-color; 
+    transition: width .3s; 
+}
+.nav-list-container a:hover:after{
+  width: 100%; 
     color:$button-color;
     border-bottom: 6px solid $button-color; 
 }
