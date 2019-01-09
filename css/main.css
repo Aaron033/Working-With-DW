@@ -65,7 +65,8 @@ html, body, * {
   color: #ffa44c; }
 
 .nav-list-container a:hover {
-  color: #ffa44c !important; }
+  color: #ffa44c;
+  border-bottom: 6px solid #ffa44c; }
 
 /*main cover **********************/
 /*about-section **********************/

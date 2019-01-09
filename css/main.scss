@@ -87,12 +87,13 @@ background-image: url(../img/hand-coffee.jpg);
 }
 .list-item:hover{
     color: $button-color; 
+    
 }
 
 .nav-list-container a:hover{
 
-    color:$button-color !important;
-    
+    color:$button-color;
+    border-bottom: 6px solid $button-color; 
 }
 
 /*main cover **********************/
