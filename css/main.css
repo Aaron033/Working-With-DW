@@ -577,11 +577,52 @@ html, body, * {
 
 .sub-container {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  width: 358px;
+  height: 400px;
+  position: relative; }
+  .sub-container p {
+    text-align: center;
+    line-height: 30px; }
+  .sub-container h4 {
+    position: absolute;
+    bottom: 50px; }
 
 .sub1, .sub2, .sub3, .sub4 {
   background-color: #fff;
   margin: 5px; }
+
+.sub1 div {
+  background-image: url(../img/logo2.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 58px;
+  width: 160px; }
+
+.sub2 div {
+  background-image: url(../img/logo1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 58px;
+  width: 160px; }
+
+.sub3 div {
+  background-image: url(../img/logo4.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 58px;
+  width: 160px; }
+
+.sub4 div {
+  background-image: url(../img/logo3.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 58px;
+  width: 160px; }
 
 .aboout-Us-main-container {
   background-image: url(../img/cafee.jpg);

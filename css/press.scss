@@ -13,9 +13,49 @@
 .sub-container {
     display: flex;
     flex-direction: row; 
+    width: 358px;
+    height: 400px;
+    position: relative;
+     
+    p{
+        text-align:center;
+        line-height: 30px;
+    }
+    
+    h4{
+
+        position: absolute;
+        bottom:50px;
+    }
     
 }
 .sub1, .sub2, .sub3, .sub4{
     background-color:#fff;
     margin: 5px;
+}
+
+.sub1 div{
+    background-image: url(../img/logo2.png);
+    @include background-style(); 
+  @include press-logo-measurement(); 
+
+}
+
+.sub2 div{
+    background-image: url(../img/logo1.png);
+    @include background-style(); 
+    @include press-logo-measurement();
+    
+}
+.sub3 div{
+    background-image: url(../img/logo4.png);
+    @include background-style(); 
+     @include press-logo-measurement();
+    
+}
+.sub4 div{
+    background-image: url(../img/logo3.png);
+    @include background-style(); 
+   @include press-logo-measurement();
+    
 }
