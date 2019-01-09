@@ -513,7 +513,7 @@ html, body, * {
 
 .news-events-container {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: papayawhip; }
 
 .news-events-container h1 {
@@ -528,7 +528,8 @@ html, body, * {
   flex-direction: row; }
   .main-events-container .me {
     background-color: rgba(136, 136, 136, 0.1);
-    margin: 10px; }
+    margin: 10px;
+    height: 600px; }
   .main-events-container .e1, .main-events-container .e2, .main-events-container .e3, .main-events-container .e4 {
     width: 270px;
     max-width: 90%;
@@ -578,7 +579,6 @@ html, body, * {
 .sub-container {
   display: flex;
   flex-direction: row;
-  width: 358px;
   height: 400px;
   position: relative; }
   .sub-container p {
