@@ -334,13 +334,23 @@ justify-items: center;
     .img-menu-12{
           display: none;
     }
-    
-    
+    .news-events{
+        height: 100% !important;
+    }
+   .main-events-container{
+    display: flex; 
+    flex-direction: column;
+       height: 100%;
+} 
+    .main-events-container{
+        height: 100%;
+    }
     
 }
 .news-events-container{
     background-color: $sections-color;
 }
+
 
 @media only screen and (max-width: 51rem) and (orientation: landscape){
     .nav-list-container a {

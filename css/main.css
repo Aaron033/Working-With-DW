@@ -530,29 +530,35 @@ html, body, * {
     background-color: rgba(136, 136, 136, 0.1);
     margin: 10px; }
   .main-events-container .e1, .main-events-container .e2, .main-events-container .e3, .main-events-container .e4 {
-    width: 250px;
+    width: 270px;
     max-width: 90%;
     height: 250px; }
+  .main-events-container .even-subcontainer {
+    margin: 20px auto; }
   .main-events-container .e1 {
     background-image: url(../img/news.new-day.jpg);
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    margin: 0 auto; }
   .main-events-container .e2 {
     background-image: url(../img/news-coffe-college.jpg);
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    margin: 0 auto; }
   .main-events-container .e3 {
     background-image: url(../img/news-early-bird-coffee.jpg);
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    margin: 0 auto; }
   .main-events-container .e4 {
     background-image: url(../img/coffee-news-date.jpg);
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    margin: 0 auto; }
 
 .press-container {
   position: relative; }
@@ -686,7 +692,18 @@ html, body, * {
     display: none; }
 
   .img-menu-12 {
-    display: none; } }
+    display: none; }
+
+  .news-events {
+    height: 100% !important; }
+
+  .main-events-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+
+  .main-events-container {
+    height: 100%; } }
 .news-events-container {
   background-color: rgba(255, 248, 235, 0.4); }
 
