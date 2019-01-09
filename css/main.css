@@ -269,17 +269,14 @@ html, body, * {
 .s {
   position: relative;
   background-color: rgba(255, 248, 235, 0.4);
-  height: 100%;
-  visibility: hidden; }
+  height: 100%; }
 
 .specialities-container {
   height: 100%; }
 
 .special-main-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "s1 s2 s3";
-  justify-items: center; }
+  display: flex;
+  flex-direction: row; }
   .special-main-container h5 {
     font-size: .9rem;
     color: #ffa44c; }
@@ -306,8 +303,7 @@ html, body, * {
   height: 300px;
   max-height: 90%;
   margin: 0 auto;
-  border-radius: 50%;
-  visibility: hidden; }
+  border-radius: 50%; }
 
 .s-img3 {
   background-image: url(../img/cappuchino.jpg);
@@ -319,8 +315,7 @@ html, body, * {
   height: 300px;
   max-height: 90%;
   margin: 0 auto;
-  border-radius: 50%;
-  visibility: hidden; }
+  border-radius: 50%; }
 
 .specialities-container h2 {
   padding-top: 50px;
@@ -338,14 +333,12 @@ html, body, * {
 .s-containr2 {
   grid-area: s2;
   border-radius: 50%;
-  text-align: center;
-  visibility: hidden; }
+  text-align: center; }
 
 .s-containr3 {
   grid-area: s3;
   border-radius: 50%;
-  text-align: center;
-  visibility: hidden; }
+  text-align: center; }
 
 /*menu-container *** ****/
 .m {
@@ -564,6 +557,9 @@ html, body, * {
 .press-container {
   position: relative; }
 
+.press-container {
+  height: 100%; }
+
 .aboout-Us-main-container h1 {
   padding-top: 50px;
   text-align: center;
@@ -584,9 +580,6 @@ html, body, * {
   .sub-container p {
     text-align: center;
     line-height: 30px; }
-  .sub-container h4 {
-    position: absolute;
-    bottom: 50px; }
 
 .sub1, .sub2, .sub3, .sub4 {
   background-color: #fff;
@@ -736,7 +729,7 @@ html, body, * {
     display: none; }
 
   .news-events {
-    height: 100% !important; }
+    height: 100%; }
 
   .main-events-container {
     display: flex;
@@ -744,6 +737,18 @@ html, body, * {
     height: 100%; }
 
   .main-events-container {
+    height: 100%; }
+
+  .special-main-container {
+    display: flex;
+    flex-direction: column; }
+
+  .aboout-Us-main-container {
+    height: 100%; }
+
+  .sub-container {
+    display: flex;
+    flex-direction: column;
     height: 100%; } }
 .news-events-container {
   background-color: rgba(255, 248, 235, 0.4); }

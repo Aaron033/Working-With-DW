@@ -118,7 +118,7 @@ background-image: url(../img/hand-coffee.jpg);
        position: relative; 
     background-color: $sections-color;
     height: 100%;
-    visibility: hidden;
+   
 }
 
 
@@ -126,13 +126,15 @@ background-image: url(../img/hand-coffee.jpg);
     height: 100%;
 }
 .special-main-container {
-  display: grid;
-    grid:{
-        template-columns: repeat(3, 1fr);
-        template-areas: "s1 s2 s3"; 
-    }
-     
-justify-items: center; 
+    display: flex; 
+    flex-direction: row;
+//  display: grid;
+//    grid:{
+//        template-columns: repeat(3, 1fr);
+//        template-areas: "s1 s2 s3"; 
+//    }
+//     
+//justify-items: center; 
     
     h5{
         font-size: .9rem;
@@ -150,14 +152,14 @@ justify-items: center;
     background-image: url(../img/vanilla%20cake.jpg); 
     @include background-style();
  @include s-width-height();
-   visibility: hidden; 
+
     
 }
 .s-img3{
     background-image: url(../img/cappuchino.jpg); 
    @include background-style();
  @include s-width-height();
-      visibility: hidden; 
+
 }
 
 .specialities-container h2{
@@ -179,12 +181,11 @@ justify-items: center;
 .s-containr2{
     grid-area: s2; 
  @include s-width-textalign();
-     visibility: hidden; 
+   
 }
 .s-containr3{
     grid-area: s3; 
    @include s-width-textalign();
-     visibility: hidden; 
     
 } 
 
@@ -335,7 +336,7 @@ justify-items: center;
           display: none;
     }
     .news-events{
-        height: 100% !important;
+        height: 100%;
     }
    .main-events-container{
     display: flex; 
@@ -346,10 +347,28 @@ justify-items: center;
         height: 100%;
     }
     
+//specialties 
+    .special-main-container{
+        display: flex; 
+        flex-direction: column;
+    }
+    
+//Press 
+    .aboout-Us-main-container{
+        height: 100%;
+    }
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    }
+    
 }
 .news-events-container{
     background-color: $sections-color;
 }
+
 
 
 @media only screen and (max-width: 51rem) and (orientation: landscape){

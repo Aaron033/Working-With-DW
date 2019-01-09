@@ -2,9 +2,13 @@
 .press-container{
     position: relative;
 }
+.press-container{
+    height: 100%;
+}
 .aboout-Us-main-container h1{
    @include header-menu();
     color: #fff;
+ 
 }
 .press-container{
     width: 90%; 
@@ -22,11 +26,7 @@
         line-height: 30px;
     }
     
-    h4{
-
-        position: absolute;
-        bottom:50px;
-    }
+  
     
 }
 .sub1, .sub2, .sub3, .sub4{
