@@ -526,6 +526,8 @@ html, body, * {
 .main-events-container {
   display: flex;
   flex-direction: row; }
+  .main-events-container .me {
+    background-color: dimgrey; }
 
 .press-container {
   position: relative; }

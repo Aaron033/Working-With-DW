@@ -15,5 +15,11 @@
 .main-events-container{
     display: flex;
     flex-direction: row ;
+    .me{
+        background-color: dimgrey; 
+    }
     
+    .e1, .e2, .e3, .e4{
+        
+    }
 }
