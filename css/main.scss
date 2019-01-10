@@ -330,16 +330,7 @@ background-image: url(../img/hand-coffee.jpg);
     .img-menu-12{
           display: none;
     }
-    .news-events{
-        height: 100%;
-    }
-   .main-events-container{
-       @include flex-column(); 
-       height: 100%;
-} 
-    .main-events-container{
-        height: 100%;
-    }
+   
     
 //specialties 
     .special-main-container{
@@ -360,7 +351,16 @@ background-image: url(../img/hand-coffee.jpg);
 .news-events-container{
     background-color: $sections-color;
 }
-
+ .news-events{
+        height: 100%;
+    }
+   .main-events-container{
+       @include flex-column(); 
+       height: 100%;
+} 
+    .main-events-container{
+        height: 100%;
+    }
 
 
 @media only screen and (max-width: 51rem) and (orientation: landscape){

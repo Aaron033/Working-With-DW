@@ -535,9 +535,11 @@ html, body, * {
     max-width: 90%;
     height: 250px; }
   .main-events-container .even-subcontainer {
+    width: 330px;
     position: relative;
     margin: 20px auto;
-    line-height: 35px; }
+    line-height: 35px;
+    height: 100%; }
     .main-events-container .even-subcontainer p {
       color: #858c8c; }
     .main-events-container .even-subcontainer h2, .main-events-container .even-subcontainer h5 {
@@ -746,17 +748,6 @@ html, body, * {
   .img-menu-12 {
     display: none; }
 
-  .news-events {
-    height: 100%; }
-
-  .main-events-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%; }
-
-  .main-events-container {
-    height: 100%; }
-
   .special-main-container {
     display: flex;
     flex-direction: column; }
@@ -770,6 +761,17 @@ html, body, * {
     height: 100%; } }
 .news-events-container {
   background-color: rgba(255, 248, 235, 0.4); }
+
+.news-events {
+  height: 100%; }
+
+.main-events-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.main-events-container {
+  height: 100%; }
 
 @media only screen and (max-width: 51rem) and (orientation: landscape) {
   .nav-list-container a {

@@ -25,15 +25,17 @@
     
     .e1, .e2, .e3, .e4{
         width: 100%; 
-        max-width: 90%; 
+    max-width: 90%; 
         height: 250px; 
        
         
     }
     .even-subcontainer{
+        width:330px; 
        position: relative;
         margin: 20px auto;
         line-height: 35px;
+        height: 100%;
          p{
         color:$content-text-color;
     }
