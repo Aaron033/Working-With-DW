@@ -117,6 +117,7 @@ background-image: url(../img/hand-coffee.jpg);
        position: relative; 
     background-color: $sections-color;
     height: 100%;
+    margin:0 auto;
    
 }
 
@@ -126,14 +127,9 @@ background-image: url(../img/hand-coffee.jpg);
 }
 .special-main-container {
     @include flex-row(); 
-    
-//  display: grid;
-//    grid:{
-//        template-columns: repeat(3, 1fr);
-//        template-areas: "s1 s2 s3"; 
-//    }
-//     
-//justify-items: center; 
+
+    justify-content: center;
+
     
     h5{
         font-size: .9rem;

@@ -1,5 +1,6 @@
 $button-color: rgb(255, 164, 76);
 $sections-color:rgba(255, 248, 235,0.4);
+$content-text-color:rgb(133, 140, 140);
 
 @mixin background-fixed() {
     background-size: cover;
@@ -58,7 +59,7 @@ $sections-color:rgba(255, 248, 235,0.4);
 
 @mixin flex-column(){
      display: flex; 
-        flex-direction: column;
+    flex-direction: column;
 }
 
 @mixin flex-row(){

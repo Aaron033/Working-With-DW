@@ -8,26 +8,45 @@
 }
 .news-events-container h1{
      @include header-menu(); 
+   
 }
 
 
 .main-events-container{
-     @include flex-row(); 
+     @include flex-row();
+   
 
     .me{
         background-color:rgba(136, 136, 136,0.1);
         margin: 10px;
         height: 600px;
+        padding: 20px;
     }
     
     .e1, .e2, .e3, .e4{
-        width: 270px; 
+        width: 100%; 
         max-width: 90%; 
         height: 250px; 
+       
         
     }
     .even-subcontainer{
+        position: relative;
         margin: 20px auto;
+         p{
+        color:$content-text-color;
+    }
+         h2,h5{
+            padding-left:17px; 
+        }
+        p{
+            padding-left:17px; 
+        }
+        
+        h5{
+            position: absolute; 
+            bottom: -40%;
+        }
     }
     .e1{
         background-image: url(../img/news.new-day.jpg);

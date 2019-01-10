@@ -22,17 +22,15 @@
 }
 
 
-.locations-divs{
-    color: aliceblue;
-}
-
-
 .locations-divs {
     width: 90%;
     margin: auto auto;
     @include flex-row(); 
-    position: relative;
-
+    position: relative; 
+}
+.location-p{
+    
+        color: $content-text-color;
     
 }
 
@@ -70,7 +68,7 @@
 .location1-img{
     background-image: url(../img/location1.jpg);
    @include background-style();
- @include location-img-mea();
+   @include location-img-mea();
     text-align: center;
  
 }

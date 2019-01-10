@@ -17,8 +17,11 @@
 
 /*.aside container info   ********** */
 .about-section-container{
-  
-
+    h1{
+        padding-bottom: 15px; 
+    }
+   p{color: $content-text-color;
+    }
     display: grid; 
     grid:{
         template-columns: repeat(3, 1fr); 
