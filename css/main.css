@@ -536,7 +536,8 @@ html, body, * {
     height: 250px; }
   .main-events-container .even-subcontainer {
     position: relative;
-    margin: 20px auto; }
+    margin: 20px auto;
+    line-height: 35px; }
     .main-events-container .even-subcontainer p {
       color: #858c8c; }
     .main-events-container .even-subcontainer h2, .main-events-container .even-subcontainer h5 {
@@ -544,8 +545,9 @@ html, body, * {
     .main-events-container .even-subcontainer p {
       padding-left: 17px; }
     .main-events-container .even-subcontainer h5 {
+      margin-bottom: -80px;
       position: absolute;
-      bottom: -40%; }
+      bottom: 0; }
   .main-events-container .e1 {
     background-image: url(../img/news.new-day.jpg);
     background-position: center center;
