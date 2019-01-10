@@ -55,3 +55,13 @@ $sections-color:rgba(255, 248, 235,0.4);
      height: 58px; 
     width: 160px;
 }
+
+@mixin flex-column(){
+     display: flex; 
+        flex-direction: column;
+}
+
+@mixin flex-row(){
+    display: flex; 
+    flex-direction: row;
+}

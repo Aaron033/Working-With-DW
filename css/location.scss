@@ -30,8 +30,7 @@
 .locations-divs {
     width: 90%;
     margin: auto auto;
-    display: flex;
-    flex-direction: row;
+    @include flex-row(); 
     position: relative;
 
     

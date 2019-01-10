@@ -2,9 +2,7 @@
 .press-container{
     position: relative;
 }
-.press-container{
-//    height: 100%;
-}
+
 .aboout-Us-main-container h1{
    @include header-menu();
     color: #fff;
@@ -15,8 +13,7 @@
     margin: 0 auto; 
 }
 .sub-container {
-    display: flex;
-    flex-direction: row; 
+    @include flex-row(); 
 
     height: 400px;
     position: relative;
@@ -32,6 +29,7 @@
 .sub1, .sub2, .sub3, .sub4{
     background-color:#fff;
     margin: 5px;
+    padding:15px; 
 }
 
 .sub1 div{

@@ -12,8 +12,7 @@
 
 
 .main-events-container{
-    display: flex;
-    flex-direction: row ;
+     @include flex-row(); 
 
     .me{
         background-color:rgba(136, 136, 136,0.1);

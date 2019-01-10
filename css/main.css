@@ -580,7 +580,8 @@ html, body, * {
 
 .sub1, .sub2, .sub3, .sub4 {
   background-color: #fff;
-  margin: 5px; }
+  margin: 5px;
+  padding: 15px; }
 
 .sub1 div {
   background-image: url(../img/logo2.png);
