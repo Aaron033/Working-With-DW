@@ -7,12 +7,12 @@ html, body, * {
 /*h1's  code ******************** *********************/
 .main-info h1 {
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 6vw;
   font-weight: 700; }
 
 .autor {
   color: #ffa44c;
-  font-size: 1.3rem; }
+  font-size: 3.0vw; }
 
 /*h1's  code  *************************************** */
 .logo {
@@ -59,7 +59,7 @@ html, body, * {
   text-decoration: none;
   text-transform: capitalize;
   font-weight: 700;
-  font-size: 1.4rem; }
+  font-size: 2.1vw; }
 
 .list-item:hover {
   color: #ffa44c; }
@@ -103,7 +103,7 @@ html, body, * {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 250px;
+  min-height: 20vh;
   margin-bottom: 10px;
   max-width: 90%; }
 
@@ -131,7 +131,7 @@ html, body, * {
   text-align: center;
   position: absolute;
   width: 100%;
-  top: 30%; }
+  top: 15%; }
 
 /*coffee icons   ***********************/
 .coffee-icon {
