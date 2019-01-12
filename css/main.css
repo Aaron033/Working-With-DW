@@ -604,7 +604,9 @@ html, body, * {
 .sub1, .sub2, .sub3, .sub4 {
   background-color: #fff;
   margin: 5px;
-  padding: 15px; }
+  padding: 15px;
+  width: 25%;
+  max-width: 350px; }
 
 .sub1 div {
   background-image: url(../img/logo2.png);
