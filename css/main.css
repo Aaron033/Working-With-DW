@@ -662,7 +662,7 @@ html, body, * {
   width: 100vw;
   position: relative; }
 
-@media (max-width: 61rem) {
+@media (max-width: 30rem) {
   .main-cover {
     width: 100vw;
     height: 100vh;
@@ -792,29 +792,6 @@ html, body, * {
   .sub1, .sub2, .sub3, .sub4 {
     width: 100%;
     height: 280px; } }
-@media only screen and (min-width: 62rem) and (max-width: 100rem) {
-  .sub-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gird-template-rows: 1fr 1fr;
-    grid-template-areas: "sub1 sub2" "sub3 sub4"; }
-    .sub-container .sub1 {
-      grid-area: sub1;
-      width: 100%;
-      height: 270px; }
-    .sub-container .sub2 {
-      grid-area: sub2;
-      width: 100%;
-      height: 100%;
-      height: 270px; }
-    .sub-container .sub3 {
-      grid-area: sub3;
-      width: 100%;
-      height: 270px; }
-    .sub-container .sub4 {
-      grid-area: sub4;
-      width: 100%;
-      height: 270px; } }
 @media only screen and (max-width: 51rem) and (orientation: landscape) {
   .nav-list-container a {
     font-size: 1.1rem; }
