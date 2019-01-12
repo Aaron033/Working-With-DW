@@ -524,7 +524,7 @@ html, body, * {
 
 .main-events-container {
   display: flex;
-  flex-direction: column; }
+  flex-direction: row; }
   .main-events-container .me {
     background-color: rgba(136, 136, 136, 0.1);
     margin: 10px;
@@ -547,7 +547,7 @@ html, body, * {
     .main-events-container .even-subcontainer p {
       padding-left: 17px; }
     .main-events-container .even-subcontainer h5 {
-      margin-bottom: -80px;
+      margin-bottom: 20px;
       position: absolute;
       bottom: 0; }
   .main-events-container .e1 {
@@ -758,21 +758,21 @@ html, body, * {
   .sub-container {
     display: flex;
     flex-direction: column;
+    height: 100%; }
+
+  .news-events-container {
+    background-color: rgba(255, 248, 235, 0.4); }
+
+  .news-events {
+    height: 100%; }
+
+  .main-events-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+
+  .main-events-container {
     height: 100%; } }
-.news-events-container {
-  background-color: rgba(255, 248, 235, 0.4); }
-
-.news-events {
-  height: 100%; }
-
-.main-events-container {
-  display: flex;
-  flex-direction: column;
-  height: 100%; }
-
-.main-events-container {
-  height: 100%; }
-
 @media only screen and (max-width: 51rem) and (orientation: landscape) {
   .nav-list-container a {
     font-size: 1.1rem; }

@@ -13,7 +13,7 @@
 
 
 .main-events-container{
-     @include flex-column();
+     @include flex-row();
    
 
     .me{
@@ -48,7 +48,7 @@
         }
         
         h5{
- margin-bottom: -80px; 
+ margin-bottom: 20px; 
             position: absolute; 
             bottom: 0;
         }
