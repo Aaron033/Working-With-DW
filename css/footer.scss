@@ -9,5 +9,10 @@ footer{
 
 .main-footer-container{
   @include flex-row(); 
+    padding: 30px; 
+    background-color: #000 !important;
     
+}
+.stores-locations1{
+    background-color: #000 !important;
 }
