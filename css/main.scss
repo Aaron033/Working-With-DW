@@ -369,6 +369,13 @@ background-image: url(../img/hand-coffee.jpg);
 }
 
 @media only screen and (min-width:30.1rem) and (max-width:60rem){
+    
+    
+    .main-events-container{
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        
+    }
     .sub-container {
         display: grid; 
         grid-template-columns: 1fr 1fr; 
@@ -378,26 +385,23 @@ background-image: url(../img/hand-coffee.jpg);
       grid-column-gap: 10px; 
         .sub1{
             grid-area: sub1; 
-            width:100%;
-            height: 340px;
+           @include width-height-sub(); 
           
         }
         .sub2{
                 grid-area: sub2; 
             width:100%;
-             height: 100%;
-            height: 340px;
+          @include width-height-sub(); 
         }
         .sub3{
             grid-area: sub3; 
-               width:100%;
-            height: 340px;
+            @include width-height-sub(); 
         }
         
         .sub4{
             grid-area:sub4; 
-               width:100%;
-            height: 340px;
+            @include width-height-sub(); 
+            
         }
         
     }

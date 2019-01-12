@@ -793,6 +793,10 @@ html, body, * {
     width: 100%;
     height: 280px; } }
 @media only screen and (min-width: 30.1rem) and (max-width: 60rem) {
+  .main-events-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+
   .sub-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -806,7 +810,7 @@ html, body, * {
     .sub-container .sub2 {
       grid-area: sub2;
       width: 100%;
-      height: 100%;
+      width: 100%;
       height: 340px; }
     .sub-container .sub3 {
       grid-area: sub3;
