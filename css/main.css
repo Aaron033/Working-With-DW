@@ -605,8 +605,14 @@ html, body, * {
   background-color: #fff;
   margin: 5px;
   padding: 15px;
+  min-width: 176px;
   width: 25%;
-  max-width: 350px; }
+  max-width: 350px;
+  position: relative;
+  height: 100%; }
+  .sub1 h4, .sub2 h4, .sub3 h4, .sub4 h4 {
+    position: absolute;
+    bottom: 20px; }
 
 .sub1 div {
   background-image: url(../img/logo2.png);
