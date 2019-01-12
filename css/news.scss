@@ -4,7 +4,7 @@
 .news-events-container{
     width: 100vw; 
     height: 100%; 
-    background-color: papayawhip;
+    background-color:$sections-color;
 }
 .news-events-container h1{
      @include header-menu(); 
@@ -14,6 +14,7 @@
 
 .main-events-container{
      @include flex-row();
+    justify-content: center;
    
 
     .me{
