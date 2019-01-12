@@ -9,13 +9,15 @@
  
 }
 .press-container{
-    width: 90%; 
-    margin: 0 auto; 
+
+   width: 90%;
+    margin: 0 auto;
+ 
 }
 .sub-container {
     @include flex-row(); 
-
-    height: 400px;
+ 
+    height: 350px;
     position: relative;
      
     p{
