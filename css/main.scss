@@ -374,6 +374,19 @@ background-image: url(../img/hand-coffee.jpg);
     .main-events-container{
         display: grid; 
         grid-template-columns: 1fr 1fr; 
+        .me{
+            margin: 0;
+            padding: 0; 
+        }
+        .e1, .e2, .e3, .e4{
+            width: 100%;
+        }
+        
+        .even-subcontainer{
+           min-width: 200px; 
+            max-width: 262px;
+            margin: 0;
+        }
         
     }
     .sub-container {

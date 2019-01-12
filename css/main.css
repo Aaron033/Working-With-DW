@@ -796,6 +796,15 @@ html, body, * {
   .main-events-container {
     display: grid;
     grid-template-columns: 1fr 1fr; }
+    .main-events-container .me {
+      margin: 0;
+      padding: 0; }
+    .main-events-container .e1, .main-events-container .e2, .main-events-container .e3, .main-events-container .e4 {
+      width: 100%; }
+    .main-events-container .even-subcontainer {
+      min-width: 200px;
+      max-width: 262px;
+      margin: 0; }
 
   .sub-container {
     display: grid;
