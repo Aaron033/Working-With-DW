@@ -610,10 +610,15 @@ html, body, * {
   max-width: 350px;
   position: relative;
   height: 100%; }
+  .sub1 p, .sub2 p, .sub3 p, .sub4 p {
+    padding-top: 20px; }
   .sub1 h4, .sub2 h4, .sub3 h4, .sub4 h4 {
     position: absolute;
     bottom: 20px;
     left: 30%; }
+
+.sub-logo {
+  margin: 0 auto; }
 
 .sub1 div {
   background-image: url(../img/logo2.png);

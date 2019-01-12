@@ -34,6 +34,9 @@
 max-width: 350px;
     position: relative;
 height: 100%;
+    p{
+        padding-top: 20px; 
+    }
     h4{
         position: absolute; 
         bottom: 20px;
@@ -42,6 +45,11 @@ height: 100%;
     }
 }
 
+.sub-logo{
+
+    margin: 0 auto;
+
+}
 .sub1 div{
     background-image: url(../img/logo2.png);
     @include background-style(); 
