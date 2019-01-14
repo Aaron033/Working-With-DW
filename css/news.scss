@@ -19,15 +19,15 @@
 
     .me{
         background-color:rgba(136, 136, 136,0.1);
-      width:25%; 
+//      width:25%; 
         margin-left: 5px; 
         height: 600px;
         padding: 20px;
     }
     
     .e1, .e2, .e3, .e4{
-        width: 100%; 
-    max-width: 90%; 
+        max-width: 90%; 
+    min-width: 80%; 
         height: 250px; 
        
         
@@ -35,7 +35,7 @@
     .even-subcontainer{
         width:330px; 
        position: relative;
-        margin: 20px auto;
+        margin: 20px 0;
         line-height: 35px;
         height: 100%;
          p{

@@ -528,18 +528,17 @@ html, body, * {
   justify-content: center; }
   .main-events-container .me {
     background-color: rgba(136, 136, 136, 0.1);
-    width: 25%;
     margin-left: 5px;
     height: 600px;
     padding: 20px; }
   .main-events-container .e1, .main-events-container .e2, .main-events-container .e3, .main-events-container .e4 {
-    width: 100%;
     max-width: 90%;
+    min-width: 80%;
     height: 250px; }
   .main-events-container .even-subcontainer {
     width: 330px;
     position: relative;
-    margin: 20px auto;
+    margin: 20px 0;
     line-height: 35px;
     height: 100%; }
     .main-events-container .even-subcontainer p {
@@ -793,6 +792,9 @@ html, body, * {
   .sub1, .sub2, .sub3, .sub4 {
     width: 100%;
     height: 280px; } }
+@media (min-width: 60.02) and (max-width: 93) {
+  .even-subcontainer {
+    width: 300px; } }
 @media only screen and (min-width: 30.1rem) and (max-width: 60rem) {
   .main-events-container {
     display: grid;
