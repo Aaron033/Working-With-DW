@@ -807,6 +807,9 @@ html, body, * {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "e1 e2" "e3 e4"; }
 
+  .e1, .e2, .e3, .e4 {
+    width: 500px; }
+
   .event1 {
     grid-area: e1; }
 
@@ -825,8 +828,11 @@ html, body, * {
     grid-template-areas: "e1 e2" "e3 e4"; }
     .main-events-container .me {
       margin: 0;
-      padding-top: 25px; }
+      padding-top: 25px;
+      padding-left: 0;
+      padding-right: 0; }
     .main-events-container .e1, .main-events-container .e2, .main-events-container .e3, .main-events-container .e4 {
+      min-width: 217.8px;
       width: 90%; }
     .main-events-container .even-subcontainer {
       min-width: 200px;
