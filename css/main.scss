@@ -355,8 +355,11 @@ background-image: url(../img/hand-coffee.jpg);
         height: 100%;
     }
    .main-events-container{
-       @include flex-column(); 
+   @include flex-column(); 
+    
        height: 100%;
+      
+       
 } 
     .main-events-container{
         height: 100%;
@@ -368,9 +371,15 @@ background-image: url(../img/hand-coffee.jpg);
 
 }
 @media (min-width:60.02) and (max-width:93){
-        .even-subcontainer{
-            width:300px; 
+    .main-events-container{
+         display: grid; 
+       grid-template-columns: repeat(2, 1fr); 
+        grid-template-areas: "e1 e2"
+                               "e3 e4"; 
+        
     }
+    
+    
 }
 
 @media only screen and (min-width:30.1rem) and (max-width:60rem){

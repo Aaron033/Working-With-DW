@@ -13,10 +13,27 @@
 
 
 .main-events-container{
-     @include flex-row();
+ display: grid; 
+       grid-template-columns: repeat(4, 1fr); 
+       grid-template-areas: "e1 e2 e3 e4"; 
     justify-content: center;
    
-
+ .event1{
+           grid-area: e1; 
+       }
+       .event2{
+           grid-area: e2; 
+       }
+    .event3{
+        grid-area: e3; 
+        
+    }
+    .event4{
+        grid-area: e4; 
+    }
+    
+    
+    
     .me{
         background-color:rgba(136, 136, 136,0.1);
 //      width:25%; 
