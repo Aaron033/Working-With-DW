@@ -370,7 +370,7 @@ background-image: url(../img/hand-coffee.jpg);
         }
 
 }
-@media (min-width:60.02) and (max-width:93){
+@media (min-width:30.01rem) and (max-width:90rem){
     .main-events-container{
          display: grid; 
        grid-template-columns: repeat(2, 1fr); 
@@ -378,31 +378,42 @@ background-image: url(../img/hand-coffee.jpg);
                                "e3 e4"; 
         
     }
-    
+     .event1{
+           grid-area: e1; 
+       }
+     .event2{
+           grid-area: e2; 
+       }
+     .event3{
+           grid-area: e3; 
+       }
+     .event4{
+           grid-area: e4; 
+       }
     
 }
 
 @media only screen and (min-width:30.1rem) and (max-width:60rem){
     
     
-    .main-events-container{
-        display: grid; 
-        grid-template-columns: 1fr 1fr; 
-        .me{
-            margin: 0;
-            padding: 0; 
-        }
-        .e1, .e2, .e3, .e4{
-            width: 100%;
-        }
-        
-        .even-subcontainer{
-           min-width: 200px; 
-            max-width: 262px;
-            margin: 0;
-        }
-        
-    }
+//    .main-events-container{
+//        display: grid; 
+//        grid-template-columns: 1fr 1fr; 
+//        .me{
+//            margin: 0;
+//            padding: 0; 
+//        }
+//        .e1, .e2, .e3, .e4{
+//            width: 100%;
+//        }
+//        
+//        .even-subcontainer{
+//           min-width: 200px; 
+//            max-width: 262px;
+//            margin: 0;
+//        }
+//        
+//    }
     .sub-container {
         display: grid; 
         grid-template-columns: 1fr 1fr; 
