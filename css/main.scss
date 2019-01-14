@@ -401,6 +401,27 @@ background-image: url(../img/hand-coffee.jpg);
     
 }
 
+@media only screen and (min-width:30.2rem)and (max-width: 62.5rem) {
+    
+      .menu-container-list{
+         display: grid;
+        grid:{
+            template-columns: 1fr; 
+            template-areas: "img1"
+            "img2"
+             "img3"
+             "img4"
+             "img5"
+             "img6"
+             "img7"
+             "img8";
+        }
+        
+       
+    }
+    
+    
+}
 @media only screen and (min-width:30.1rem) and (max-width:60rem){
     
     
