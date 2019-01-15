@@ -721,7 +721,7 @@ html, body, * {
   .menu-container-list {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8"; }
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10" "img11" "img12"; }
 
   .img-menu-1 {
     grid-area: img1;
@@ -747,6 +747,18 @@ html, body, * {
 
   .img-menu-8 {
     grid-area: img8; }
+
+  .img-menu-9 {
+    grid-area: img9; }
+
+  .img-menu-10 {
+    grid-area: img10; }
+
+  .img-menu-11 {
+    grid-area: img11; }
+
+  .img-menu-12 {
+    grid-area: img12; }
 
   .special-main-container {
     display: flex;
