@@ -721,7 +721,7 @@ html, body, * {
   .menu-container-list {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10" "img11" "img12"; }
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8"; }
 
   .img-menu-1 {
     grid-area: img1;
