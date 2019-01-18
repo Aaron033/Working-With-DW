@@ -38,22 +38,7 @@ background-image: url(../img/hand-coffee.jpg);
 //    z-index: -1; 
 }
 
-//.main-cover-cover > * {
-//    z-index: 2;
-//}
-//
-//.main-nav > * {
-//        z-index: 122;
-//}
-//.main-cover:after{
-//     content: ''; 
-//    position: absolute; 
-//    left: 0; 
-//    top:0; 
-//    width: 100vw; 
-//    height: 100vh; 
-//    background: rgba(0,0,0,0.4); 
-//}
+
 
 
 .nav-list-container{
@@ -103,10 +88,6 @@ background-image: url(../img/hand-coffee.jpg);
     border-bottom: 6px solid $button-color; 
 }
 
-//.sticky{
-//    position: sticky;
-//    position: top;
-//}
 /*main cover **********************/
 @import "aside-code.scss"; 
 

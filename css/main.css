@@ -1,16 +1,16 @@
 /*
 Error: Invalid CSS after "}": expected "}", was ""
-        on line 572 of main.scss
+        on line 553 of main.scss
 
-567:     }
-568:     
-569:     .aside-container{
-570:        width: 100%;
-571:     }
-572: }
+548:     }
+549:     
+550:     .aside-container{
+551:        width: 100%;
+552:     }
+553: }
 
 Backtrace:
-main.scss:572
+main.scss:553
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1308:in `expected'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1238:in `expected'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1233:in `tok!'
@@ -43,4 +43,4 @@ main.scss:572
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 572 of main.scss\A \A 567:     }\A 568:     \A 569:     .aside-container{\A 570:        width: 100%;\A 571:     }\A 572: }"; }
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 553 of main.scss\A \A 548:     }\A 549:     \A 550:     .aside-container{\A 551:        width: 100%;\A 552:     }\A 553: }"; }
