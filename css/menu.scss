@@ -26,10 +26,13 @@
 
 .img-menu-1 {
     grid-area: img1;
+ 
    
   
 }
-
+.imp{
+    position: $position-relative;
+}
   .menu-info{
         width: 170px;
         position: absolute;

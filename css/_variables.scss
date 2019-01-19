@@ -1,6 +1,7 @@
 $button-color: rgb(255, 164, 76);
 $sections-color:rgba(255, 248, 235,0.6);
 $content-text-color:rgb(133, 140, 140);
+$position-relative: relative; 
 
 @mixin background-fixed() {
     background-size: cover;
