@@ -35,7 +35,7 @@ html,body,*{
 .main-cover { 
 background-image: url(../img/hand-coffee.jpg);
 @include background-fixed();
-//    z-index: -1; 
+
 }
 
 
@@ -65,7 +65,7 @@ background-image: url(../img/hand-coffee.jpg);
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 700;
-    font-size: 2.1vw;
+    font-size: 1.5rem;
    
 }
 .list-item:hover{
@@ -191,7 +191,7 @@ background-image: url(../img/hand-coffee.jpg);
     }
     
     .nav-list-container a{
-        font-size: .8rem;
+        font-size: .9rem;
     }
 //    About container  ******** ******** ******** ******** ********
     .about-image1-container, .about-image2-container,.about-image3-container{
