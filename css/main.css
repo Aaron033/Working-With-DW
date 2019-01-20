@@ -827,6 +827,11 @@ html, body, * {
     .menu-container-list .imp div:first-child {
       width: 200px;
       height: 200px; }
+    .menu-container-list .menu-info {
+      width: 170px;
+      position: absolute;
+      top: 35%;
+      transform: translateX(250px); }
 
   .img-menu-1 {
     grid-area: img1; }
