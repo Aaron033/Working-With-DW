@@ -413,7 +413,10 @@ background-image: url(../img/hand-coffee.jpg);
         
        height: 100%;
     
-
+          .imp div:first-child {
+              width: 200px; 
+              height: 200px; 
+          }
     }
     
     .img-menu-1{
@@ -436,6 +439,7 @@ background-image: url(../img/hand-coffee.jpg);
            grid-area: img12; 
          
     }
+    
     
     
 }

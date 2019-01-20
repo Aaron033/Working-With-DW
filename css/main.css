@@ -824,6 +824,9 @@ html, body, * {
     grid-template-columns: 1fr;
     grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10" "img11" "img12";
     height: 100%; }
+    .menu-container-list .imp div:first-child {
+      width: 200px;
+      height: 200px; }
 
   .img-menu-1 {
     grid-area: img1; }
