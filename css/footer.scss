@@ -8,7 +8,8 @@ footer{
 .main-footer-container{
 display: flex; 
     color: aliceblue;
-    
+    flex-direction: row; 
+    height: 150px; 
 }
 .stores-locations1{
     background-color: #000;
