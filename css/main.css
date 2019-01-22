@@ -345,6 +345,15 @@ html, body, * {
   border-radius: 50%;
   text-align: center; }
 
+footer {
+  background-color: #000; }
+
+.main-footer-container {
+  background-color: #000; }
+
+.stores-locations1 {
+  background-color: #000; }
+
 /*menu-container *** ****/
 .m {
   background-color: rgba(136, 136, 136, 0.1);
