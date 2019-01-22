@@ -1,18 +1,17 @@
 @import "_variables.scss"; 
 
 footer{
-    position: absolute; 
-    bottom:0;
+ background-color: #000; 
+    
    
     
 }
 
 .main-footer-container{
-  @include flex-row(); 
-    padding: 30px; 
-    background-color: #000 !important;
+
+    background-color: #000;
     
 }
 .stores-locations1{
-    background-color: #000 !important;
+    background-color: #000;
 }
