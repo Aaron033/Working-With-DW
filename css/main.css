@@ -357,6 +357,12 @@ footer {
 .stores-locations1 {
   background-color: #000; }
 
+.coffe-footer-icon {
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto; }
+
 /*menu-container *** ****/
 .m {
   background-color: rgba(136, 136, 136, 0.1);
