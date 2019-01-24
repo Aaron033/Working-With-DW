@@ -364,6 +364,18 @@ footer {
   margin: 30px auto;
   position: absolute; }
 
+.icon1 {
+  background-image: url(../img/facebook-logo.svg); }
+
+.icon2 {
+  background-image: url(../img/facebook-logo.svg); }
+
+.icon3 {
+  background-image: url(../img/facebook-logo.svg); }
+
+.icon4 {
+  background-image: url(../img/facebook-logo.svg); }
+
 /*menu-container *** ****/
 .m {
   background-color: rgba(136, 136, 136, 0.1);
