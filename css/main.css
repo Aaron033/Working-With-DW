@@ -351,6 +351,7 @@ footer {
 
 .main-footer-container {
   display: flex;
+  justify-content: center;
   color: aliceblue;
   flex-direction: row;
   height: 150px; }
