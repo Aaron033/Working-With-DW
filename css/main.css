@@ -364,10 +364,12 @@ footer {
   margin: 30px auto;
   position: absolute; }
 
-.footer-icons div {
-  width: 30px;
-  height: 30px;
-  background-color: aliceblue; }
+.footer-icons {
+  display: flex; }
+  .footer-icons div {
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue; }
 
 .icon1 {
   background-image: url(../img/facebook-logo.svg); }
