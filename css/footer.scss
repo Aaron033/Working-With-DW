@@ -23,10 +23,13 @@ display: flex;
 
 .footer-icons{
     display: flex;
+    justify-content: center;
+    
     div{
         width: 30px; 
         height: 30px; 
         background-color: aliceblue;
+        margin: 10px; 
     }
 }
 .icon1{

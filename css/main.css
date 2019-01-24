@@ -365,11 +365,13 @@ footer {
   position: absolute; }
 
 .footer-icons {
-  display: flex; }
+  display: flex;
+  justify-content: center; }
   .footer-icons div {
     width: 30px;
     height: 30px;
-    background-color: aliceblue; }
+    background-color: aliceblue;
+    margin: 10px; }
 
 .icon1 {
   background-image: url(../img/facebook-logo.svg); }
