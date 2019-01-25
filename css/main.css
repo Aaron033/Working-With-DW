@@ -379,6 +379,9 @@ p {
     background-color: aliceblue;
     margin: 10px; }
 
+.footer-img {
+  position: relative; }
+
 .icon1 {
   background-image: url(../img/facebook-logo.svg); }
 
