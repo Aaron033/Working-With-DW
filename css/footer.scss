@@ -15,7 +15,12 @@ display: flex;
     justify-content: center;
     color: aliceblue;
     flex-direction: row; 
-    height: 150px; 
+//    height: 150px; 
+    padding-top: 50px;
+    div{
+     margin: 0 30px;
+        text-align: center;
+    }
 }
 .stores-locations1{
     background-color: #000;
