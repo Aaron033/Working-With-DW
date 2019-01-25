@@ -37,12 +37,15 @@ display: flex;
 .footer-icons{
     display: flex;
     justify-content: center;
+ 
     
     div{
-        width: 30px; 
-        height: 30px; 
+        width: 45px; 
+        height: 45px; 
         background-color: aliceblue;
-        margin: 10px; 
+        margin: 40px 10px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
     }
 }
 .footer-img{
