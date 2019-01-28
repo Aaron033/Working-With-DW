@@ -536,10 +536,17 @@ background-image: url(../img/hand-coffee.jpg);
         }
         
     }
+    
+    .location-container{
+        height: 100%;
+    }
     .locations-divs{
      display: flex; 
         flex-direction: column;
+        height: 100%;
     }
+    
+    
    
 }
 

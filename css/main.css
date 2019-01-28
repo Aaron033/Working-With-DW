@@ -973,9 +973,13 @@ p {
       width: 100%;
       height: 340px; }
 
+  .location-container {
+    height: 100%; }
+
   .locations-divs {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    height: 100%; } }
 @media only screen and (max-width: 51rem) and (orientation: landscape) {
   .nav-list-container a {
     font-size: 1.1rem; }
