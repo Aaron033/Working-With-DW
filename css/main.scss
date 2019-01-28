@@ -542,15 +542,20 @@ background-image: url(../img/hand-coffee.jpg);
         
     }
     .locations-divs{
-     display: flex; 
+        display: flex; 
         flex-direction: column;
-        align-content: center;
-        justify-content: center;
+        
         height: 100%;
+   
     }
     
+    .location1,  .location2,  .location3{
+          
+         margin: 10px auto;
+    }
     
    
+ 
 }
 
 @media only screen and (max-width: 51rem) and (orientation: landscape){
