@@ -539,10 +539,13 @@ background-image: url(../img/hand-coffee.jpg);
     
     .location-container{
         height: 100%;
+        
     }
     .locations-divs{
      display: flex; 
         flex-direction: column;
+        align-content: center;
+        justify-content: center;
         height: 100%;
     }
     
