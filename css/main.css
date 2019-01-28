@@ -971,7 +971,11 @@ p {
     .sub-container .sub4 {
       grid-area: sub4;
       width: 100%;
-      height: 340px; } }
+      height: 340px; }
+
+  .locations-divs {
+    display: flex;
+    flex-direction: column; } }
 @media only screen and (max-width: 51rem) and (orientation: landscape) {
   .nav-list-container a {
     font-size: 1.1rem; }
