@@ -996,7 +996,11 @@ p {
     height: 100%; }
 
   .location1, .location2, .location3 {
-    margin: 10px auto; } }
+    margin: 10px auto; }
+
+  .s-containr1 {
+    min-width: 100px;
+    max-width: 300px; } }
 @media only screen and (max-width: 51rem) and (orientation: landscape) {
   .nav-list-container a {
     font-size: 1.1rem; }

@@ -477,6 +477,8 @@ background-image: url(../img/hand-coffee.jpg);
             font-size: .8rem;
         }
     }
+    
+    
     .main-events-container{
         display: grid; 
         grid-template-columns: 1fr 1fr; 
@@ -566,7 +568,10 @@ background-image: url(../img/hand-coffee.jpg);
          margin: 10px auto;
     }
     
-   
+    .s-containr1{
+        min-width: 100px; 
+        max-width: 300px;
+    }
  
 }
 
