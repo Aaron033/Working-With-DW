@@ -922,7 +922,8 @@ p {
     height: 200px; } }
 @media only screen and (min-width: 30.1rem) and (max-width: 60rem) {
   .about-info-container {
-    margin-top: -50px; }
+    margin-top: -50px;
+    width: 200px; }
     .about-info-container p {
       font-size: .8rem; }
 
