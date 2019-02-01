@@ -874,7 +874,10 @@ p {
 
   .event4 {
     margin-bottom: 10px;
-    grid-area: e4; } }
+    grid-area: e4; }
+
+  .sub1, .sub2, .sub3, .sub4 {
+    height: 370px; } }
 @media only screen and (min-width: 30.2rem) and (max-width: 62.5rem) {
   .m {
     height: 100%; }
