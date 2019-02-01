@@ -528,27 +528,30 @@ background-image: url(../img/hand-coffee.jpg);
         grid-template-areas: "sub1 sub2"
                              "sub3 sub4"; 
       grid-column-gap: 10px; 
-        h4{
-            padding-top: 20px;
-        }
+        
+        
         .sub1{
             grid-area: sub1; 
            @include width-height-sub(); 
+            height: 400px;
           
         }
         .sub2{
                 grid-area: sub2; 
          
           @include width-height-sub(); 
+            height: 400px;
         }
         .sub3{
             grid-area: sub3; 
             @include width-height-sub(); 
+            height: 400px;
         }
         
         .sub4{
             grid-area:sub4; 
             @include width-height-sub(); 
+            height: 400px;
             
         }
         
