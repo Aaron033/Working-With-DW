@@ -962,6 +962,9 @@ p {
       justify-self: center;
       grid-area: e4; }
 
+  .aboout-Us-main-container, .press-container, .sub-container {
+    height: 100%; }
+
   .sub-container {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -521,6 +521,10 @@ background-image: url(../img/hand-coffee.jpg);
        }
         
     }
+    
+    .aboout-Us-main-container ,.press-container,.sub-container{
+        height: 100%;
+    }
     .sub-container {
         display: grid; 
         grid-template-columns: 1fr 1fr; 
