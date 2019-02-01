@@ -529,7 +529,7 @@ background-image: url(../img/hand-coffee.jpg);
                              "sub3 sub4"; 
       grid-column-gap: 10px; 
         h4{
-            margin-top: 20px;
+            padding-top: 20px;
         }
         .sub1{
             grid-area: sub1; 
@@ -538,7 +538,7 @@ background-image: url(../img/hand-coffee.jpg);
         }
         .sub2{
                 grid-area: sub2; 
-            width:100%;
+         
           @include width-height-sub(); 
         }
         .sub3{
