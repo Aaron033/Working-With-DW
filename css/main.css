@@ -968,6 +968,8 @@ p {
     gird-template-rows: 1fr 1fr;
     grid-template-areas: "sub1 sub2" "sub3 sub4";
     grid-column-gap: 10px; }
+    .sub-container h4 {
+      margin-top: 20px; }
     .sub-container .sub1 {
       grid-area: sub1;
       width: 100%;

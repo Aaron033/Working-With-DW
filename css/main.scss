@@ -528,6 +528,9 @@ background-image: url(../img/hand-coffee.jpg);
         grid-template-areas: "sub1 sub2"
                              "sub3 sub4"; 
       grid-column-gap: 10px; 
+        h4{
+            margin-top: 20px;
+        }
         .sub1{
             grid-area: sub1; 
            @include width-height-sub(); 
