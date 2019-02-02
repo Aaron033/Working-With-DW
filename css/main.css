@@ -607,7 +607,7 @@ p {
     .main-events-container .even-subcontainer p {
       padding-left: 17px; }
     .main-events-container .even-subcontainer h5 {
-      margin-bottom: 20px;
+      margin: 0 auto;
       position: absolute;
       bottom: 0; }
   .main-events-container .e1 {
