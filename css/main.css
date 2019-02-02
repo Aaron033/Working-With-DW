@@ -607,9 +607,7 @@ p {
     .main-events-container .even-subcontainer p {
       padding-left: 17px; }
     .main-events-container .even-subcontainer h5 {
-      text-align: center;
-      position: absolute;
-      bottom: 0; }
+      text-align: center; }
   .main-events-container .e1 {
     background-image: url(../img/news.new-day.jpg);
     background-position: center center;
