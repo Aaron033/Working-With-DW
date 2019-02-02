@@ -609,6 +609,9 @@ p {
     .main-events-container .even-subcontainer h5 {
       text-align: center;
       border: 1px solid #000; }
+    .main-events-container .even-subcontainer h5:hover {
+      background-color: black;
+      color: aliceblue; }
   .main-events-container .e1 {
     background-image: url(../img/news.new-day.jpg);
     background-position: center center;
