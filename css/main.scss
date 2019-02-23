@@ -452,18 +452,11 @@ background-image: url(../img/hand-coffee.jpg);
          
     }
     
-    .s-containr1 div:first-of-type{
+    .s-containr1 ,.s-containr2 , .s-containr3 div:first-of-type{
         width:250px; 
         height: 200px; 
     }
-    .s-containr2 div:first-of-type{
-        width:250px; 
-        height: 200px; 
-    }
-    .s-containr3 div:first-of-type{
-        width:250px; 
-        height: 200px; 
-    }
+
     
 }
 @media only screen and (min-width:30.1rem) and (max-width:60rem){
